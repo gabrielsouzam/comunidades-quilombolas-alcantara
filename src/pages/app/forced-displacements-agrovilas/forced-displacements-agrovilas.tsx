@@ -1,5 +1,5 @@
-import React from "react";
-import DisplacementsImage from "/src/assets/displacements.svg";
+import PastaIcon from "/src/assets/pasta.png"
+import DisplacementsImage from "/src/assets/barcos.png";
 import MapaImage from "/src/assets/mapa.png";
 
 export function ForcedDisplacementsAgrovilas() {
@@ -27,7 +27,7 @@ export function ForcedDisplacementsAgrovilas() {
         </div>
 
         <div
-          className="absolute max-w-[90%] text-justify text-black"
+          className="absolute max-w-[90%] text-justify text-black z-20"
           style={{
             top: "22%",
             left: "60px",
@@ -42,7 +42,7 @@ export function ForcedDisplacementsAgrovilas() {
             O plano de deslocamento compulsório não levou em consideração as especificidades dos quilombos,
             aplicando-se critérios idênticos de realocação para famílias que desenvolviam
             atividades diferenciadas de pesca em igarapés, pesca em mar aberto, produção agrícola em
-            roças com práticas de cultivo individuais e coletivas e uso comum dos recursos naturais. 
+            roças com práticas de cultivo individuais e coletivas e uso comum dos recursos naturais.
           </p>
           <p>
             A divisão em agrovilas promoveu a alteração de práticas dos saberes e fazeres dos quilombolas,
@@ -55,12 +55,13 @@ export function ForcedDisplacementsAgrovilas() {
         </div>
 
         <div
-          className="absolute max-w-[100%] w-full px-12 text-white"
+          className="absolute max-w-[100%] w-full px-12 text-white z-20"
           style={{
-            bottom: "88px",
+            bottom: "-36px",
+            color: "#F5F5DC",
           }}
         >
-          <div className="max-w-[50%] text-left">
+          <div className="max-w-[40%] text-justify">
             <blockquote className="italic text-2xl">
               “Nessa época, foi um grande sofrimento. Cada qual nos seus devidos lugares, onde nasceram e se criaram. A gente sofreu demais,
               chorei demais! Deixa eu chorar! Você já viu uma criança mamar e a mãe não querer mais dar o peito? Foi o que eles fizeram com a gente!”
@@ -69,12 +70,11 @@ export function ForcedDisplacementsAgrovilas() {
               — Leandra de Jesus Silveira, 83 anos, quilombola realocada de Pepital Velho para a agrovila Pepital.
             </cite>
           </div>
-
-          <div className="max-w-[50%] text-right mt-10 ml-auto">
-            <blockquote className="italic text-2x1">
+          <div className="max-w-[60%] pt-16 ml-auto z-20">
+            <blockquote className="italic text-2xl  text-justify">
               “Cada lugar teu seu uso, como dizia minha avó! Agora não tá dando tanto, tudo foi diminuindo por que a terra tá diminuindo!”
             </blockquote>
-            <cite className="block mt-2 text-sm text-gray-300">
+            <cite className="block mt-4 text-sm text-right text-gray-300 z-20">
               — Maria de Fátima Ferreira, 67 anos, quilombola realocada para a agrovila Mamuna.
             </cite>
           </div>
@@ -82,17 +82,19 @@ export function ForcedDisplacementsAgrovilas() {
       </div>
 
       <div className="relative bg-[#501E0D] py-10 mt-22">
-      <div className="absolute top-[-230px] left-0 w-full h-[280px] bg-gradient-to-b from-transparent via-[#5a2b1a] to-[#501E0D]"></div>
+        <div className="absolute top-[-230px] left-0 w-full h-[280px] bg-gradient-to-b from-transparent via-[#000000] to-[#531e0c]"></div>
 
         <div className="relative flex justify-center z-10">
           <img
             src={MapaImage}
             alt="Mapa das comunidades quilombolas deslocadas"
-            className="shadow-lg rounded-lg w-[70%] border border-gray-300"
+            className="shadow-lg rounded-lg w-[70%] border border-gray-300 "
           />
         </div>
-        <div className="text-right mt-6 mr-10 text-white text-lg relative z-10">
-          Para saber mais, acesse clicando <span className="font-semibold underline cursor-pointer">aqui</span>
+        <div className="mt-6 text-white text-lg relative z-10 flex items-center justify-end pr-6">
+          <span>Para saber mais, acesse clicando</span>
+          <a href="#" className="font-semibold no-underline ml-1">aqui</a>
+          <img src={PastaIcon} alt="Ícone de Pasta" className="w-5 h-5 ml-2" />
         </div>
       </div>
     </div>
