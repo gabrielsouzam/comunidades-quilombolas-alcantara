@@ -4,9 +4,9 @@ export function AppHeader() {
   return (
     <header className="flex items-center justify-between bg-terracota-red px-11 py-3 text-zinc-300">
       <div className="max-w-40">
-        <h1 className="text-sm font-normal">
+        <Link to="/" className="text-sm font-normal hover:text-zinc-50 transition-colors duration-200">
           “Ovo não briga com pedra, mas lambuza!”
-        </h1>
+        </Link>
       </div>
 
       <nav className="space-x-15 flex items-center">
