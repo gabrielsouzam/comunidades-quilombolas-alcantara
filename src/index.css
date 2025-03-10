@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+@import "tailwindcss";
 
 html {
   font-family: "Open Sans", serif;
@@ -17,5 +17,9 @@ html {
   --color-brown-800: #3C2F22;
   --color-brown-900: #1F1612;
 
+  --color-base-white: #F5F5DC;
+  --color-base-brown: #28130A;
+  --color-base-green: #34412D;
+  --color-dark-green: #222F1B;
   --color-terracota-red: #501E0D;
 }
