@@ -1,18 +1,19 @@
-import QRCodeIcon from "/src/assets/qrcode.png"; // Ícone de QR Code
+import QRCodeIcon from "/src/assets/qrcode.png"; 
+import BolasCanto from "/src/assets/bolasCanto.png"; 
+
 
 export function Conflicts() {
   return (
     <div className="max-w-full shadow-lg rounded-lg overflow-hidden">
       
-      {/* Seção superior (Fundo Claro) */}
       <div className="p-6 md:p-12 bg-[#F5F5DC]">
-        <h1 className="text-xl md:text-2xl font-bold text-[#28130A]">
+        <h1 className="text-xl md:text-2xl font-normal text-[#28130A]">
           Sobre o conflito entre o CLA e os quilombolas de Alcântara - MA
         </h1>
-        <p className="mt-2 text-md md:text-lg italic text-[#28130A]">
+        <p className="mt-2 text-md md:text-lg italic text-[#28130A] ">
           Desapropriação da área para implantação do Centro de Lançamento de Alcântara
         </p>
-        <p className="mt-4 text-justify text-[#28130A] text-sm md:text-base">
+        <p className="mt-4 text-justify text-[#28130A] text-sm md:text-base pr-50 ">
           Em 1980, o governo federal por meio do decreto 7.820, desapropriou por fins de utilidade pública
           e equivalente a 52.711 hectares no município de Alcântara para a implantação da Base de Lançamento
           de Foguetes. Ainda na mesma época, a área desapropriada foi incorporada ao patrimônio da União e
@@ -22,9 +23,8 @@ export function Conflicts() {
         </p>
       </div>
 
-      {/* Seção intermediária (Fundo Verde) */}
       <div className="bg-[#1E2D1AE5] text-[#CCAC85] p-6 md:p-12">
-        <p className="text-justify text-sm md:text-base">
+        <p className="text-justify text-sm md:text-base pr-50">
           Em 1991, por meio do Decreto Presidencial nº 72.517, de 18 de abril de 1968, a área foi exigida
           com o intuito de realizar o monitoramento de lançamentos e pesquisas tecnológicas. Segundo o
           Ministério da Aeronáutica, o modelo do núcleo urbano no município de Alcântara seria a melhor
@@ -56,6 +56,12 @@ export function Conflicts() {
           <p className="text-xs md:text-sm text-[#F5F5DCB2] italic mb-2">QR Code mais fotos</p>
           <img src={QRCodeIcon} alt="QR Code mais informações" className="w-20 md:w-24 h-20 md:h-24" />
         </div>
+
+        <img 
+          src={BolasCanto} 
+          alt="Bolas decorativas"
+          className="absolute bottom-30 right-0 w-[180px] md:w-[220px] "
+        />
       </div>
     </div>
   );

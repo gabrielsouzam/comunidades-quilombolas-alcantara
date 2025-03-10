@@ -1,8 +1,8 @@
 import PastaIcon from "/src/assets/pasta.png";
-import Agrovila from "/src/assets/agrovila.png";
-import Marada from "/src/assets/marada.png";
-import Peru from "/src/assets/peru.png";
-import SoAssim from "/src/assets/so assim.png";
+import Agrovila from "/src/assets/agrovilaCajueira.png";
+import Maruda from "/src/assets/agrovilaMaruda.png";
+import Peru from "/src/assets/agrovilaPeru.png";
+import SoAssim from "/src/assets/agrovilaSoAssim.png";
 import VilarejoImage from "/src/assets/vilarejo.png";
 
 
@@ -18,12 +18,12 @@ export function ForcedDisplacementsPermanent() {
         <div
           className="absolute text-white px-6"
           style={{
-            top: "6%",
+            top: "5%",
             left: "60px",
             color: "#F5F5DC"
           }}
         >
-          <h1 className="text-[28px] font-semibold">
+          <h1 className="text-[28px] font-normal">
             Deslocamento compulsório permanente
           </h1>
         </div>
@@ -55,22 +55,23 @@ export function ForcedDisplacementsPermanent() {
           <div
             className="absolute max-w-[60%] text-justify text-white px-4 z-20"
             style={{
-              top: "90%",
+              top: "110%",
               left: "0px",
               color: "#F5F5DC"
             }}
           >
-            <blockquote className="italic text-lg mt-6 pr-100">
-              “Você já viu uma criança mamar e a mãe não querer dar o peito?
-              Foi o que eles fizeram com a gente!”
+            <blockquote className="italic text-2xl font-light text-justify text-[#F5F5DC] leading-relaxed pr-90">
+              “Você já viu uma criança mamar e a mãe não querer dar o peito? Foi o que eles fizeram com a gente!”
             </blockquote>
-            <blockquote className="italic text-lg mt-8 pr-40">
+
+            <blockquote className="italic text-2xl font-light text-justify text-[#F5F5DC] leading-relaxed mt-6 pr-40">
               “A temporada ruim foi quando viemos pra cá e perdemos tudo, nossa terra.
               Muito sofrimento, a falta de tudo o que ficou lá, muito sofrimento! Só
               tinha as casas e a areia e pra comer manga, tinha que ir lá no Pepital
               Velho, vinha com o pescoço doendo. Nessa época, foi um grande sofrimento!”
             </blockquote>
-            <p className="mt-4 font-bold text-sm pr-40">
+
+            <p className="mt-4 text-lg font-medium text-justify text-[#F5F5DC] pr-40">
               — Leandra de Jesus Silveira, 83 anos, quilombola realocada de Pepital Velho para a agrovila Pepital.
             </p>
           </div>
@@ -78,20 +79,20 @@ export function ForcedDisplacementsPermanent() {
       </div>
 
       <div
-        className="relative bg-[#6d2912] py-20"
+        className="relative bg-[#692610] py-20"
         style={{
           marginTop: "-70px",
         }}
       >
         <div
-          className="absolute left-0 w-full h-[200px] bg-gradient-to-b from-transparent via-[#68301c] to-[#6e2a13]"
+          className="absolute left-0 w-full h-[200px] bg-gradient-to-b from-transparent via-[#a55c20e5] to-[#6b270a]"
           style={{
             top: "-150px",
           }}
         ></div>
 
         <div
-          className="relative  py-20 flex justify-between items-start max-w-7xl mx-auto px-10 "
+          className="relative  py-66 flex justify-between items-start max-w-7xl mx-auto px-10 "
           style={{ marginTop: "-340px", color: "#F5F5DC" }}
         >
           <div className="w-2/3 text-white text-justify pr-8 z-20">
@@ -117,12 +118,14 @@ export function ForcedDisplacementsPermanent() {
               Foto: Elitiel Guedes  Agrovila Só Assim   Foto: Elitiel Guedes  Agrovila Peru   Foto: Elitiel Guedes  Falta inserir: Pepital,  Ponta Seca e Espera
               estradas, meios de transportes e a não instalação da rede de energia  elétrica, são forçados a saírem compulsoriamente de seus territórios.
             </p>
-            <blockquote className="italic text-2xl mt-6">
+            <blockquote className="italic text-2xl font-light text-left text-[#F5F5DC] leading-relaxed mt-6">
               “Tudo o que muda, murcha! Eles [CLA] deixam a pessoa sem escolha!”
             </blockquote>
-            <p className="mt-4 text-sm font-bold ">
+
+            <p className="mt-4 text-lg font-medium text-left text-[#F5F5DC]">
               — Carlos Adelman, 44 anos, quilombo Pacurí
             </p>
+
             <p className="mb-4 mt-4">
               A descontinuidade das políticas públicas modifica as práticas de  resistência dos quilombolas no território, a exemplo do que ocorreu com
               o quilombo Baracatatiua, que possui atualmente apenas duas famílias.  A escola, que anteriormente, funcionava na modalidade de ensino  multiseriado,
@@ -142,12 +145,14 @@ export function ForcedDisplacementsPermanent() {
               suas práticas de resistência cotidiana e frente à ameaça de  novos deslocamentos,
               reafirmam os laços de solidariedade e se  posicionam contrários a qualquer ação do CLA que promova novas  alterações no território étnico.
             </p>
-            <blockquote className="italic text-2xl mt-6">
+            <blockquote className="italic text-2xl font-light text-left text-[#F5F5DC] leading-relaxed mt-6">
               “É como uma planta, se tirar daqui, vai mudar muita coisa!”
             </blockquote>
-            <p className="mt-4 text-sm font-bold">
+
+            <p className="mt-4 text-lg font-medium text-left text-[#F5F5DC]">
               — Damião Amorim Lopes, 70 anos, quilombo Mocajubal
             </p>
+
             <div className="text-left mt-6 text-white text-lg relative z-10 flex items-center">
               <span>Para saber mais, acesse clicando</span>
               <a href="#" className="font-semibold no-underline ml-1">aqui</a>
@@ -155,27 +160,55 @@ export function ForcedDisplacementsPermanent() {
             </div>
           </div>
           <div className="w-1/3 flex flex-col space-y-24 items-end mt-40">
+            {/* Agrovila Cajueiro */}
             <div className="w-3/4">
-              <img src={Agrovila} alt="Agrovila Cajueiro" className="w-full rounded-lg shadow-md" />
+              <img
+                src={Agrovila}
+                alt="Agrovila Cajueiro"
+                className="h-[119px] w-[282px] object-cover rounded-lg opacity-90 border-4"
+                style={{ borderColor: "#AB9679" }}
+              />
               <p className="text-left text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Agrovila Cajueiro</p>
               <p className="text-left text-xs" style={{ color: "#CEB490CC" }}>Foto: Elitiel Guedes</p>
             </div>
+
+            {/* Agrovila Marudá */}
             <div className="w-3/4">
-              <img src={Marada} alt="Agrovila Marudá" className="w-full rounded-lg shadow-md" />
-              <p className="text-right text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Agrovila Marudá</p>
-              <p className="text-right text-xs" style={{ color: "#CEB490CC" }}>Foto: Elitiel Guedes</p>
+              <img
+                src={Maruda}
+                alt="Agrovila Marudá"
+                className="h-[119px] w-[282px] object-cover rounded-lg opacity-90 border-4"
+                style={{ borderColor: "#AB9679" }}
+              />
+              <p className="text-right text-sm mt-1 italic pr-5" style={{ color: "#CEB490CC" }}>Agrovila Marudá</p>
+              <p className="text-right text-xs pr-5" style={{ color: "#CEB490CC" }}>Foto: Elitiel Guedes</p>
             </div>
+
+            {/* Agrovila Sô Assim */}
             <div className="w-3/4">
-              <img src={SoAssim} alt="Agrovila Sô Assim" className="w-full rounded-lg shadow-md" />
+              <img
+                src={SoAssim}
+                alt="Agrovila Sô Assim"
+                className="h-[119px] w-[282px] object-cover rounded-lg opacity-90 border-4"
+                style={{ borderColor: "#AB9679" }}
+              />
               <p className="text-left text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Agrovila Sô Assim</p>
               <p className="text-left text-xs" style={{ color: "#CEB490CC" }}>Foto: Elitiel Guedes</p>
             </div>
+
+            {/* Agrovila Peru */}
             <div className="w-3/4">
-              <img src={Peru} alt="Agrovila Peru" className="w-full rounded-lg shadow-md" />
-              <p className="text-right text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Agrovila Peru</p>
-              <p className="text-right text-xs" style={{ color: "#CEB490CC" }}>Foto: Elitiel Guedes</p>
+              <img
+                src={Peru}
+                alt="Agrovila Peru"
+                className="h-[119px] w-[282px] object-cover rounded-lg opacity-90 border-4"
+                style={{ borderColor: "#AB9679" }}
+              />
+              <p className="text-right text-sm mt-1 italic pr-5" style={{ color: "#CEB490CC" }}>Agrovila Peru</p>
+              <p className="text-right text-xs pr-5" style={{ color: "#CEB490CC" }}>Foto: Elitiel Guedes</p>
             </div>
           </div>
+
         </div>
       </div>
     </div>

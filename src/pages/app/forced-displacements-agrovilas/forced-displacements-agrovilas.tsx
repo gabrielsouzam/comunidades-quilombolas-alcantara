@@ -1,6 +1,6 @@
 import PastaIcon from "/src/assets/pasta.png"
 import DisplacementsImage from "/src/assets/barcos.png";
-import MapaImage from "/src/assets/mapa.png";
+import MapaImage from "/src/assets/mapa2.png";
 
 export function ForcedDisplacementsAgrovilas() {
   return (
@@ -14,11 +14,11 @@ export function ForcedDisplacementsAgrovilas() {
         <div
           className="absolute max-w-[800px]"
           style={{
-            top: "6%",
+            top: "5%",
             left: "60px",
           }}
         >
-          <h1 className="text-[28px] font-semibold text-black">
+          <h1 className="text-[26px] text-black">
             Deslocamento compulsório das comunidades quilombolas para as agrovilas
           </h1>
           <p className="mt-3 text-lg italic text-black">
@@ -29,7 +29,7 @@ export function ForcedDisplacementsAgrovilas() {
         <div
           className="absolute max-w-[90%] text-justify text-black z-20"
           style={{
-            top: "22%",
+            top: "20%",
             left: "60px",
           }}
         >
@@ -55,26 +55,27 @@ export function ForcedDisplacementsAgrovilas() {
         </div>
 
         <div
-          className="absolute max-w-[100%] w-full px-12 text-white z-20"
+          className="absolute max-w-[100%] w-full px-14 text-white z-20"
           style={{
-            bottom: "-36px",
+            bottom: "-60px",
             color: "#F5F5DC",
           }}
         >
-          <div className="max-w-[40%] text-justify">
-            <blockquote className="italic text-2xl">
+          <div className="max-w-[44%] text-justify">
+            <blockquote className="italic text-2xl font-light text-justify text-[#F5F5DC] leading-relaxed ">
               “Nessa época, foi um grande sofrimento. Cada qual nos seus devidos lugares, onde nasceram e se criaram. A gente sofreu demais,
               chorei demais! Deixa eu chorar! Você já viu uma criança mamar e a mãe não querer mais dar o peito? Foi o que eles fizeram com a gente!”
             </blockquote>
-            <cite className="block mt-4 text-sm text-gray-300">
+            <cite className="block mt-4 text-lg font-medium text-justify text-[#F5F5DC]">
               — Leandra de Jesus Silveira, 83 anos, quilombola realocada de Pepital Velho para a agrovila Pepital.
             </cite>
           </div>
-          <div className="max-w-[60%] pt-16 ml-auto z-20">
-            <blockquote className="italic text-2xl  text-justify">
-              “Cada lugar teu seu uso, como dizia minha avó! Agora não tá dando tanto, tudo foi diminuindo por que a terra tá diminuindo!”
+          <div className="max-w-[70%] pt-16 ml-auto z-20">
+            <blockquote className="italic text-2xl font-light text-justify text-[#F5F5DC] leading-relaxed pr-4">
+              “Cada lugar tem seu uso, como dizia minha avó! Agora não tá dando tanto, tudo foi diminuindo porque 
+              a terra tá diminuindo!”
             </blockquote>
-            <cite className="block mt-4 text-sm text-right text-gray-300 z-20">
+            <cite className="block mt-4 text-lg font-medium text-right text-[#F5F5DC] z-20">
               — Maria de Fátima Ferreira, 67 anos, quilombola realocada para a agrovila Mamuna.
             </cite>
           </div>
