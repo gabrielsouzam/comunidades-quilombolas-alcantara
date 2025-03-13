@@ -1,5 +1,5 @@
-import QRCodeIcon from "/src/assets/qrcode.png"; 
-import BolasCanto from "/src/assets/bolasCanto.png"; 
+import QRCodeIcon from "./../../../assets/qrcode.png"; 
+import BolasCanto from "./../../../assets/bolasCanto.png"; 
 
 
 export function Conflicts() {

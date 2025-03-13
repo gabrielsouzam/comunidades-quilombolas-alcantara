@@ -136,7 +136,7 @@ export function Ancestry() {
                 className="border-8 border-white shadow-lg -rotate-6 w-[14.75rem] h-[10.75rem]"
               />
 
-              <div className="flex items-center flex-col">
+              <div className="flex items-center flex-col gap-3">
                 <span className="italic font-light text-xl text-base-white/70">Qr code com mais fotos</span>
                 <img
                   src={qrCode}

@@ -1,6 +1,6 @@
-import PastaIcon from "/src/assets/pasta.png"
-import DisplacementsImage from "/src/assets/barcos.png";
-import MapaImage from "/src/assets/mapa2.png";
+import PastaIcon from "./../../../assets/pasta.png"
+import DisplacementsImage from "./../../../assets/barcos.png";
+import MapaImage from "./../../../assets/mapa2.png";
 
 export function ForcedDisplacementsAgrovilas() {
   return (

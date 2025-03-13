@@ -1,9 +1,9 @@
-import PastaIcon from "/src/assets/pasta.png";
-import Agrovila from "/src/assets/agrovilaCajueira.png";
-import Maruda from "/src/assets/agrovilaMaruda.png";
-import Peru from "/src/assets/agrovilaPeru.png";
-import SoAssim from "/src/assets/agrovilaSoAssim.png";
-import VilarejoImage from "/src/assets/vilarejo.png";
+import PastaIcon from "./../../../assets/pasta.png";
+import Agrovila from "./../../../assets/agrovilaCajueira.png";
+import Maruda from "./../../../assets/agrovilaMaruda.png";
+import Peru from "./../../../assets/agrovilaPeru.png";
+import SoAssim from "./../../../assets/agrovilaSoAssim.png";
+import VilarejoImage from "./../../../assets/vilarejo.png";
 
 
 export function ForcedDisplacementsPermanent() {
