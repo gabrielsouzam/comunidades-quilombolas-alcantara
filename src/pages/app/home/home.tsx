@@ -2,6 +2,12 @@ import { useState } from "react";
 import { Card } from "./components/card"
 import { ImageMap } from "./components/imageMap"
 import { quilombos } from "./data/quilombos";
+import homeBgImage from "./../../../assets/img.svg"
+import elipseImage from "./../../../assets/ellipse2.svg"
+import elipse1 from "./../../../assets/ellipse1.svg"
+import elipse3 from "./../../../assets/ellipse3.svg"
+import elipse4 from "./../../../assets/ellipse4.svg"
+import elipse5 from "./../../../assets/ellipse5.png"
 
 export function Home() {
 
@@ -16,12 +22,12 @@ export function Home() {
 
       <section
         className="relative w-full h-[859px] bg-cover bg-center"
-        style={{ backgroundImage: "url('/src/assets/img.svg')" }}
+        style={{ backgroundImage: `url(${homeBgImage})`  }}
       >
 
-        <img src="/src/assets/ellipse3.svg" alt="elipse 3" />
+        <img src={elipse3} alt="elipse 3" />
         <img
-          src="/src/assets/ellipse1.svg"
+          src={elipse1}
           alt="elipse 1"
           className="absolute top-10 left-50"
         />
@@ -38,7 +44,7 @@ export function Home() {
         </div>
 
         <img
-          src="/src/assets/ellipse2.svg"
+          src={elipseImage}
           alt="elipse 2"
           className="absolute bottom-0 right-0"
         />
@@ -67,7 +73,7 @@ export function Home() {
               possibilidade para a elaboração de uma episteme alternativa, a “Epistemologia da Resistência”.
             </p>
           </div>
-          <img src="/src/assets/ellipse4.svg" alt="elipse 4" />
+          <img src={elipse4} alt="elipse 4" />
         </div>
       </section>
 
@@ -91,7 +97,7 @@ export function Home() {
           </div>
 
           <img
-            src="/src/assets/ellipse5.png"
+            src={elipse5}
             alt="elipse com foto"
           />
         </div>

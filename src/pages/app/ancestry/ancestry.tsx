@@ -12,11 +12,11 @@ export function Ancestry() {
   return (
     <div className="flex flex-col w-full h-full text-base-white ">
       <div
-        className="bg-cover bg-center bg-no-repeat h-[68.75rem]"
+        className="bg-cover bg-center bg-no-repeat h-[74rem]"
         style={{ backgroundImage: `url(${ancestryHeroBackground})` }}
       >
         <div
-          className="absolute inset-0 top-72 z-10 h-[68.75rem] w-full"
+          className="absolute inset-0 top-72 z-10 h-[74rem] w-full"
           style={{
             background: `linear-gradient(180deg, rgba(124, 168, 110, 0) 40.3%, rgba(82, 110, 72, 0.6) 51.67%,
     rgba(64, 86, 56, 0.801996) 58.52%, rgba(58, 79, 52, 0.870488) 65.77%, rgba(55, 74, 48, 0.891802) 71.01%, 
@@ -86,18 +86,21 @@ export function Ancestry() {
             para as agrovilas.
           </p>
 
-          <div className="flex flex-col gap-2 items-end">
+          <div className="flex flex-col gap-2 items-end ">
             <span className="italic font-light text-4xl text-left">"O mato é novo, mas a terra é velha!"</span>
             <span className="text-lg font-medium text-left">- Aniceto Araújo Pereira, Quilombo Oitiua</span>
           </div>
 
         </div>
 
-        <div className="bg-dark-green flex flex-col pt-10 pr-40">
+        
+      </div>
+
+      <div className="bg-dark-green flex flex-col pt-10 pr-40 relative top-54">
           <div className="flex justify-between pl-8 mb-11">
             <div>
               <img src={ancestryBigSun} alt="" />
-              <img src={ancestrySmallSun} alt="" className="absolute top-[97.5rem] left-[-4.75rem]" />
+              <img src={ancestrySmallSun} alt="" className="absolute top-[13.5rem] left-[-4.75rem]" />
 
             </div>
 
@@ -133,7 +136,7 @@ export function Ancestry() {
                 className="border-8 border-white shadow-lg -rotate-6 w-[14.75rem] h-[10.75rem]"
               />
 
-              <div className="flex items-center flex-col">
+              <div className="flex items-center flex-col gap-3">
                 <span className="italic font-light text-xl text-base-white/70">Qr code com mais fotos</span>
                 <img
                   src={qrCode}
@@ -224,7 +227,6 @@ export function Ancestry() {
 
 
         </div>
-      </div>
     </div>
   );
 }

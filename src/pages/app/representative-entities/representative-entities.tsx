@@ -1,5 +1,5 @@
-import PastaIcon from "/src/assets/pasta.png"
-import BarcosImage from "/src/assets/barcosSimples2.jpg";
+import PastaIcon from "./../../../assets/pasta.png"
+import BarcosImage from "./../../../assets/barcosSimples2.jpg";
 
 export function RepresentativeEntities() {
   return (

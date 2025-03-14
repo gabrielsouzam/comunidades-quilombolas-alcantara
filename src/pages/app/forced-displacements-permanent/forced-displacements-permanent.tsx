@@ -1,27 +1,22 @@
-import PastaIcon from "/src/assets/pasta.png";
-import Agrovila from "/src/assets/agrovilaCajueira.png";
-import Maruda from "/src/assets/agrovilaMaruda.png";
-import Peru from "/src/assets/agrovilaPeru.png";
-import SoAssim from "/src/assets/agrovilaSoAssim.png";
-import VilarejoImage from "/src/assets/vilarejo.png";
+import PastaIcon from "./../../../assets/pasta.png";
+import Agrovila from "./../../../assets/agrovilaCajueira.png";
+import Maruda from "./../../../assets/agrovilaMaruda.png";
+import Peru from "./../../../assets/agrovilaPeru.png";
+import SoAssim from "./../../../assets/agrovilaSoAssim.png";
+import VilarejoImage from "./../../../assets/vilarejo.png";
 
 
 export function ForcedDisplacementsPermanent() {
   return (
     <div className="font-['Open_Sans']">
       <div
-        className="relative h-[56.25rem] bg-cover bg-center bg-no-repeat"
+        className="relative h-[56.25rem] bg-cover bg-center bg-no-repeat px-30 py-24"
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(139, 69, 19, 0.85)), url(${VilarejoImage})`,
         }}
       >
         <div
-          className="absolute text-white px-6"
-          style={{
-            top: "5%",
-            left: "60px",
-            color: "#F5F5DC"
-          }}
+          className=" text-white mb-10"
         >
           <h1 className="text-[28px] font-normal">
             Deslocamento compulsório permanente
@@ -29,16 +24,13 @@ export function ForcedDisplacementsPermanent() {
         </div>
 
         <div
-          className="absolute max-w-[1200px] flex justify-between text-white px-6 text-justify"
+          className="max-w-[1200px] flex justify-between flex-col gap-11 text-white text-justify"
           style={{
-            top: "12%",
-            left: "60px",
-            right: "60px",
             color: "#F5F5DC"
           }}
         >
           <div className="w-full pr-1">
-            <p className="mb-4">
+            <p className="mb-11">
               O deslocamento compulsório dos quilombolas para as agrovilas em 1986 continua,
               ao longo dos anos, reproduzindo práticas de violência cotidianas, seja em
               razão das memórias relatadas pelos quilombolas, seja em razão das dificuldades
@@ -53,18 +45,16 @@ export function ForcedDisplacementsPermanent() {
           </div>
 
           <div
-            className="absolute max-w-[60%] text-justify text-white px-4 z-20"
+            className="max-w-[60%] text-justify text-white z-20"
             style={{
-              top: "110%",
-              left: "0px",
               color: "#F5F5DC"
             }}
           >
-            <blockquote className="italic text-2xl font-light text-justify text-[#F5F5DC] leading-relaxed pr-90">
+            <blockquote className="italic text-2xl font-light text-justify text-[#F5F5DC] leading-relaxed pr-90 mb-16">
               “Você já viu uma criança mamar e a mãe não querer dar o peito? Foi o que eles fizeram com a gente!”
             </blockquote>
 
-            <blockquote className="italic text-2xl font-light text-justify text-[#F5F5DC] leading-relaxed mt-6 pr-40">
+            <blockquote className="italic text-2xl font-light text-justify text-[#F5F5DC] leading-relaxed mt-6 pr-40 mb-8">
               “A temporada ruim foi quando viemos pra cá e perdemos tudo, nossa terra.
               Muito sofrimento, a falta de tudo o que ficou lá, muito sofrimento! Só
               tinha as casas e a areia e pra comer manga, tinha que ir lá no Pepital
@@ -80,9 +70,6 @@ export function ForcedDisplacementsPermanent() {
 
       <div
         className="relative bg-[#692610] py-20"
-        style={{
-          marginTop: "-70px",
-        }}
       >
         <div
           className="absolute left-0 w-full h-[200px] bg-gradient-to-b from-transparent via-[#a55c20e5] to-[#6b270a]"
@@ -92,8 +79,8 @@ export function ForcedDisplacementsPermanent() {
         ></div>
 
         <div
-          className="relative  py-66 flex justify-between items-start max-w-7xl mx-auto px-10 "
-          style={{ marginTop: "-340px", color: "#F5F5DC" }}
+          className="relative py-66 flex justify-between items-start max-w-7xl mx-auto "
+          style={{ marginTop: "-15.5rem", color: "#F5F5DC" }}
         >
           <div className="w-2/3 text-white text-justify pr-8 z-20">
             <p className="mb-4">

@@ -1,22 +1,19 @@
-import PastaIcon from "/src/assets/pasta.png"
-import DisplacementsImage from "/src/assets/barcos.png";
-import MapaImage from "/src/assets/mapa2.png";
+import PastaIcon from "./../../../assets/pasta.png"
+import DisplacementsImage from "./../../../assets/barcos.png";
+import MapaImage from "./../../../assets/mapa2.png";
 
 export function ForcedDisplacementsAgrovilas() {
   return (
     <div className="font-['Open_Sans']">
       <div
-        className="relative h-[56.25rem] bg-cover bg-center bg-no-repeat"
+        className="relative h-[56.25rem] bg-cover bg-center bg-no-repeat px-28 py-24"
         style={{
           backgroundImage: `url(${DisplacementsImage})`,
         }}
       >
         <div
-          className="absolute max-w-[800px]"
-          style={{
-            top: "5%",
-            left: "60px",
-          }}
+          className="max-w-[800px]"
+        
         >
           <h1 className="text-[26px] text-black">
             Deslocamento compulsório das comunidades quilombolas para as agrovilas
@@ -27,12 +24,7 @@ export function ForcedDisplacementsAgrovilas() {
         </div>
 
         <div
-          className="absolute max-w-[90%] text-justify text-black z-20"
-          style={{
-            top: "20%",
-            left: "60px",
-          }}
-        >
+          className="max-w-[90%] text-justify text-black z-20">
           <p className="mb-4">
             Nos anos de 1986 e 1987, ocorreram os deslocamentos de 312 famílias de 23
             quilombos para sete agrovilas que reproduziram os nomes dos quilombos de onde foram
@@ -55,11 +47,7 @@ export function ForcedDisplacementsAgrovilas() {
         </div>
 
         <div
-          className="absolute max-w-[100%] w-full px-14 text-white z-20"
-          style={{
-            bottom: "-60px",
-            color: "#F5F5DC",
-          }}
+          className="relative max-w-[100%] w-full px-14 text-white z-20 mt-16"
         >
           <div className="max-w-[44%] text-justify">
             <blockquote className="italic text-2xl font-light text-justify text-[#F5F5DC] leading-relaxed ">
@@ -70,7 +58,7 @@ export function ForcedDisplacementsAgrovilas() {
               — Leandra de Jesus Silveira, 83 anos, quilombola realocada de Pepital Velho para a agrovila Pepital.
             </cite>
           </div>
-          <div className="max-w-[70%] pt-16 ml-auto z-20">
+          <div className="max-w-[70%] pt-16 flex flex-col self-end z-20 ml-auto">
             <blockquote className="italic text-2xl font-light text-justify text-[#F5F5DC] leading-relaxed pr-4">
               “Cada lugar tem seu uso, como dizia minha avó! Agora não tá dando tanto, tudo foi diminuindo porque 
               a terra tá diminuindo!”
