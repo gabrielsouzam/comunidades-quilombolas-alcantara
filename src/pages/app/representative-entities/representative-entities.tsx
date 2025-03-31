@@ -1,4 +1,4 @@
-import PastaIcon from "./../../../assets/pasta.png"
+import SetaIcon from "./../../../assets/seta.png"
 import BarcosImage from "./../../../assets/barcosSimples2.jpg";
 
 export function RepresentativeEntities() {
@@ -9,25 +9,26 @@ export function RepresentativeEntities() {
         style={{ backgroundImage: `url(${BarcosImage})` }}
       >
         <div
-          className="absolute inset-0 top-[-4rem] z-10 h-[190rem] w-full pointer-events-none"
+          className="absolute inset-0 top-[-4rem] z-10 h-[202rem] w-full pointer-events-none"
           style={{
             background: `linear-gradient(
       180deg,
-      rgba(207, 169, 125, 0.1) 10.68%,
-      rgba(207, 169, 125, 0.3) 19.58%,
-      rgba(207, 169, 125, 0.6) 26.6%,
-      rgba(207, 169, 125, 0.7) 30.35%,
-      rgba(107, 152, 82, 0.971698) 36.43%,
-      #5F964D 36.44%,
-      #35532B 47.67%,
-      #2C4523 57.03%,
-      #2C4524 62.64%,
-      #20321A 75.75%,
-      #20331A 75.76%,
-      #1E2F19 85.11%
+      rgba(207, 169, 125, 0.1) 8%,
+      rgba(207, 169, 125, 0.3) 18%,
+      rgba(207, 169, 125, 0.6) 24%,
+      rgba(207, 169, 125, 0.7) 28%,
+      rgba(107, 152, 82, 0.971698) 34%,
+      #5F964D 34.5%,
+      #35532B 46%,
+      #2C4523 55%,
+      #2C4524 61%,
+      #20321A 74%,
+      #20331A 75%,
+      #1E2F19 84%
     )`
           }}
         ></div>
+
 
         <div className="relative z-20">
           <h1 className="text-terracota-red font-normal text-4xl mb-16 mt-20">
@@ -62,14 +63,13 @@ export function RepresentativeEntities() {
                 garantia do território.
               </p>
               <p className="text-base-brown text-xl text-justify">
-                Dentre as ações reivindicatórias, estão as mobilizações dos quilombolas
-                por meio da realização de seminários, encontros periódicos, reuniões e
-                audiências públicas, favorecendo o contato e apropriação por parte dos
-                quilombolas dos elementos jurídicos que fortaleceram suas lutas. Em 1992,
-                deu-se a construção do movimento organizado a partir das mobilizações em
-                Alcântara, denominado Movimento das Mulheres Trabalhadoras Rurais - MOMTRA
-                para discutir as questões relativas a gênero e fortalecer a luta pela
-                garantia do território.
+                No período compreendido entre 11 e 14 de maio de 1999, os  quilombolas de Alcântara
+                por iniciativa do STTR realizaram o  Seminário Alcântara: A Base Espacial e os Impasses
+                Sociais. Esse  seminário fomentou discussões acerca das formas de mobilização  dos quilombolas
+                no que se referia à terceira fase do processo de  implantação do CLA e sobre os deslocamentos
+                compulsórios das 312  famílias para as agrovilas. A partir das observações realizadas no  Seminário
+                de 99, o conflito com o CLA passou a ser analisado pelos
+                quilombolas como um problema que extrapolava a questão agrária e  se estendia à questão étnica.
               </p>
             </div>
 
@@ -88,14 +88,14 @@ export function RepresentativeEntities() {
             </div>
           </div>
           <div className="col-span-5 space-y-8">
-            <p className="text-white text-xl text-justify">
+            {/* <p className="text-white text-xl text-justify">
               No período compreendido entre 11 e 14 de maio de 1999, os  quilombolas de Alcântara por iniciativa do STTR
               realizaram o  Seminário Alcântara: A Base Espacial e os Impasses Sociais. Esse  seminário fomentou discussões
               acerca das formas de mobilização  dos quilombolas no que se referia à terceira fase do processo de  implantação
               do CLA e sobre os deslocamentos compulsórios das 312  famílias para as agrovilas. A partir das observações
               realizadas no  Seminário de 99, o conflito com o CLA passou a ser analisado pelos
               quilombolas como um problema que extrapolava a questão agrária e  se estendia à questão étnica.
-            </p>
+            </p> */}
             <p className="text-white text-xl text-justify ">
               Nesse contexto, agregando o componente étnico, se originou o  Movimento dos Atingidos pela Base Espacial – MABE,
               fundado em  julho de 2001 e que congrega representações de
@@ -103,25 +103,37 @@ export function RepresentativeEntities() {
             </p>
           </div>
           <div
-            className="flex flex-col px-10 py-10 mt-10 justify-between h-[407px]"
+            className="flex flex-col px-10 py-10 mt-10 justify-between h-[700px]"
             style={{
               backgroundColor: "#222F1B",
-              color: "#CCAC85",
+              color: "#F5F5DC",
               borderRadius: "30px",
             }}
           >
-            <h2 className="text-2xl font-bold text-center w-full mb-4">
-              Explicação Componente Étnico
+            <h2 className="text-2xl font-bold text-center w-full mb-0">
+              {/* Explicação Componente Étnico */}
             </h2>
             <div className="flex-grow flex">
-              <p className="text-lg">Descrição...</p>
+              <p className="italic font-light text-4xl text-justify">“E por ocasião da implantação do Centro de Lançamento de Alcântara
+                até então, não se  conhecia, ou se conhecia não tinha o menor controle político e social
+                sobre a palavra quilombola,  praticamente visível em cima dele, desde o final do século XVIII
+                quando quilombo era  condicionado a uma coisa relacionada à escravidão até na década de 1980.
+                O componente  étnico ele veio à tona a partir do momento em que as próprias comunidades foram se dando
+                conta das pesquisas que foram feitas, dos estudos que foram feitos, não é que os pesquisadores
+                foram impondo ainda que de forma sutil esse componente para a luta, o que houve foi que essas
+                pesquisas realizadas em Alcântara quase na sua totalidade, elas colaboraram no sentido de  evidenciar
+                esses fatores,
+                esses fatores sempre estiveram no estado de latência, mas sempre  estiveram em Alcântara”. </p>
             </div>
+            <span className="italic text-lg font-medium block mt-4">
+              -Danilo Serejo, quilombo Canelatiua
+            </span>
           </div>
           <div className="col-span-5 space-y-8 mt-8"
-          style={{
-            color: "#F5F5DC",
-            borderRadius: "30px",
-          }}
+            style={{
+              color: "#F5F5DC",
+              borderRadius: "30px",
+            }}
           >
             <p className="text-white text-xl text-justify">
               O STTR de Alcântara após a criação do MABE continua reforçando a  pauta de reivindicação dos quilombolas,
@@ -142,10 +154,10 @@ export function RepresentativeEntities() {
             </p>
           </div>
           <div className="text-right mb-6 mt-8"
-          style={{
-            color: "#F5F5DC",
-            borderRadius: "30px",
-          }}
+            style={{
+              color: "#F5F5DC",
+              borderRadius: "30px",
+            }}
           >
             <p className="italic text-2xl font-light">
               “Eu não sei ler, mas não é por isso, que eu não vou me defender!”
@@ -155,32 +167,50 @@ export function RepresentativeEntities() {
             </p>
           </div>
           <div
-          style={{
-            color: "#F5F5DC", // Define a cor do texto como Bege
-            borderRadius: "30px",
-          }}
+            style={{
+              color: "#F5F5DC", // Define a cor do texto como Bege
+              borderRadius: "30px",
+            }}
           >
-          <p className="text-lg text-justify leading-relaxed">
-            Nos dias 24 e 25 de novembro de 2017, as entidades representativas realizaram o II Seminário
-            Alcântara: a Base Espacial e os Impasses Sociais e intensificaram a luta pela manutenção do
-            território étnico, criando em 2019, outra entidade representativa intitulada Associação do
-            Território Étnico Quilombola de Alcântara – ATEQUILA. O processo de criação deu-se após a
-            realização de oficinas de consulta realizadas nos quilombos do território étnico de Alcântara,
-            reunindo cerca de 600 quilombolas que discutiram sobre o processo de mobilização política e
-            autonomia da associação, reivindicação dos direitos sobre o território étnico, identidade e
-            domínio político acerca dos saberes
-            tradicionais e da luta em defesa da titulação definitiva do  território étnico de Alcântara – MA.
-          </p>
-          <p className="text-lg text-justify leading-relaxed mt-6">
-            As entidades representativas STTR, MOMTRA, MABE e ATEQUILA seguem atuando de modo  articulado,
-            partilhando as experiências vivenciadas ao longo dos mais de 40 anos de conflito,  mostrando como
-            o campo dos saberes e fazeres quilombolas se articula
-            intimamente com as  ações no campo político e reforçam cotidianamente a luta pela titulação do território étnico.          </p>
-        </div>
-        <div className="mt-6 text-white text-lg relative z-10 flex items-center justify-items-start pr-6">
-          <span>Para saber mais, acesse clicando</span>
-          <a href="#" className="font-semibold no-underline ml-1">aqui</a>
-          <img src={PastaIcon} alt="Ícone de Pasta" className="w-5 h-5 ml-2" />
+            <p className="text-lg text-justify leading-relaxed">
+              As entidades representativas STTR, MOMTRA, MABE e ATEQUILA seguem atuando de modo  articulado,
+              partilhando as experiências vivenciadas ao longo dos mais de 40 anos de conflito,  mostrando como
+              o campo dos saberes e fazeres quilombolas se articula
+              intimamente com as  ações no campo político e reforçam cotidianamente a luta pela titulação do território étnico.
+            </p>
+            <p className="text-lg text-justify leading-relaxed mt-6">
+              A violação dos direitos dos quilombolas de Alcântara no decorrer do processo de
+              implantação da  Base espacial foi apresentada por meio de denúncia pela Comissão
+              Interamericana de Direitos  Humanos (CIDH), no ano 2001 e nos dias 26 e 27 de abril de 2023
+              , o Tribunal Internacional  intitulado Corte Interamericana de Direitos Humanos (CIDH) realizou
+              sessão, no Chile, para apreciação   do caso Quilombolas de Alcântara vs. Brasil. Os intelectuais
+              quilombolas de Alcântara atuaram  de forma direta como peticionários, com depoimentos e com a feitura
+              de perícia apresentada à  Corte IDH, elaborada pelo antropólogo quilombola do território de Itamatatiua,
+              Davi Pereira Júnior. O  Estado brasileiro reconheceu publicamente na
+              ocasião, a violação de direitos dos quilombolas  no processo de implantação do CLA.</p>
+          </div>
+          <div className="mt-8 text-white text-lg relative z-10 flex flex-col items-start pr-6 space-y-2">
+            <span>Para saber mais, acesse: </span>
+
+            <a
+              href="/01-direitos_resistencia_e_mobilizacoes%20(1).pdf"
+              className="font-medium no-underline flex items-center mt-10"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={SetaIcon} alt="Ícone de Seta" className="w-4 h-4 mr-2" />
+              Livro Direitos resistência e mobilizações
+            </a>
+
+            <a
+              href="/10-Quilombolas-Atingidos-Base-Espacial%20(5).pdf"
+              className="font-medium no-underline flex items-center"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={SetaIcon} alt="Ícone de Seta" className="w-4 h-4 mr-2" />
+              Livro Lutas em memória
+            </a>
           </div>
         </div>
       </div>
