@@ -1,5 +1,6 @@
 import { useState } from "react";
 import  Marker  from "./marker";
+import map from "./../../../../assets/map.png"
 
 interface MarkerData {
   id: number;
@@ -23,7 +24,7 @@ export function ImageMap({ markersData, onSelectMarker }: ImageMapProps) {
 
   return (
     <div style={{ position: "relative", width: "800px", height: "600px" }}>
-      <img src="/src/assets/map.png" alt="Mapa" style={{ height: 555, display: "block" }} />
+      <img src={map} alt="Mapa" style={{ height: 555, display: "block" }} />
 
       {markersData.map((marker) => (
         <Marker
