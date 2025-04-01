@@ -126,7 +126,7 @@ export function RepresentativeEntities() {
               -Danilo Serejo, quilombo Canelatiua
             </span>
           </div>
-          <div className="col-span-5 mt-12"
+          <div className="col-span-5 mt-14"
             style={{
               color: "#F5F5DC",
               borderRadius: "30px",
@@ -140,7 +140,7 @@ export function RepresentativeEntities() {
               fortalecimento do  movimento de defesa do território étnico, o amadurecimento das
               estratégias de atuação e a intensificação do uso dos saberes tradicionais cotidianos como formas  de resistência.
             </p>
-            <p className="text-white text-xl text-justify ">
+            <p className="text-white text-xl text-justify mt-6">
               Nos dias 24 e 25 de novembro de 2017, as entidades representativas realizaram o II Seminário  Alcântara: a Base
               Espacial e os Impasses Sociais e intensificaram a luta pela manutenção do  território étnico, criando em 2019,
               outra entidade representativa intitulada Associação do  Território Étnico Quilombola de Alcântara – ATEQUILA.
