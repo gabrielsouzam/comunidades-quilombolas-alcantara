@@ -103,18 +103,15 @@ export function RepresentativeEntities() {
             </p>
           </div>
           <div
-            className="flex flex-col px-10 py-10 mt-10 justify-between h-[700px]"
+            className="flex flex-col px-10 py-10 mt-10 h-[620px]"
             style={{
               backgroundColor: "#222F1B",
               color: "#F5F5DC",
               borderRadius: "30px",
             }}
           >
-            <h2 className="text-2xl font-bold text-center w-full mb-0">
-              {/* Explicação Componente Étnico */}
-            </h2>
-            <div className="flex-grow flex">
-              <p className="italic font-light text-4xl text-justify">“E por ocasião da implantação do Centro de Lançamento de Alcântara
+            <div className=" flex">
+              <p className="italic font-light text-3xl text-justify mt-4">“E por ocasião da implantação do Centro de Lançamento de Alcântara
                 até então, não se  conhecia, ou se conhecia não tinha o menor controle político e social
                 sobre a palavra quilombola,  praticamente visível em cima dele, desde o final do século XVIII
                 quando quilombo era  condicionado a uma coisa relacionada à escravidão até na década de 1980.
@@ -122,14 +119,14 @@ export function RepresentativeEntities() {
                 conta das pesquisas que foram feitas, dos estudos que foram feitos, não é que os pesquisadores
                 foram impondo ainda que de forma sutil esse componente para a luta, o que houve foi que essas
                 pesquisas realizadas em Alcântara quase na sua totalidade, elas colaboraram no sentido de  evidenciar
-                esses fatores,
-                esses fatores sempre estiveram no estado de latência, mas sempre  estiveram em Alcântara”. </p>
+                esses fatores, esses fatores sempre estiveram no estado de latência, mas sempre  estiveram em Alcântara”.
+              </p>
             </div>
-            <span className="italic text-lg font-medium block mt-4">
+            <span className="italic text-lg font-medium block mt-16">
               -Danilo Serejo, quilombo Canelatiua
             </span>
           </div>
-          <div className="col-span-5 space-y-8 mt-8"
+          <div className="col-span-5 mt-12"
             style={{
               color: "#F5F5DC",
               borderRadius: "30px",
@@ -203,7 +200,7 @@ export function RepresentativeEntities() {
             </a>
 
             <a
-              href="/10-Quilombolas-Atingidos-Base-Espacial%20(5).pdf"
+              href="public\06-lutas_em_memoria.pdf"
               className="font-medium no-underline flex items-center"
               target="_blank"
               rel="noopener noreferrer"

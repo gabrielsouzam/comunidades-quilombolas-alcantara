@@ -4,6 +4,7 @@ import Maruda from "./../../../assets/agrovilaMaruda.png";
 import Peru from "./../../../assets/agrovilaPeru.png";
 import SoAssim from "./../../../assets/agrovilaSoAssim.png";
 import VilarejoImage from "./../../../assets/vilarejo.png";
+import EscolaImage from "./../../../assets/escola.png";
 
 
 export function ForcedDisplacementsPermanent() {
@@ -30,38 +31,49 @@ export function ForcedDisplacementsPermanent() {
           }}
         >
           <div className="w-full pr-1">
-            <p className="mb-11">
+            <p className="mb-6">
               O deslocamento compulsório dos quilombolas para as agrovilas em 1986 continua,
               ao longo dos anos, reproduzindo práticas de violência cotidianas, seja em
               razão das memórias relatadas pelos quilombolas, seja em razão das dificuldades
               de sobrevivência e reprodução social das famílias.
             </p>
-            <p className="mb-4">
+            <p className="mb-6">
               A violência praticada pelos atos do Estado no que se refere aos deslocamentos compulsórios
               é evidenciada desde a forma como se deu a abordagem do Centro de Lançamento de Alcântara - CLA
               às famílias no período anterior à retirada dos quilombolas de seus quilombos, sem prévia consulta,
               e durante todo processo que configurou a mudança das famílias.
             </p>
+            <p className="mb-6 pr-100">
+              As agrovilas foram projetadas para reproduzir os  brasões da Aeronáutica e a disposição das casas
+              seguiram o formato  de cada brasão. O cotidiano das famílias nas casas era  “vigiado”, não se admitindo alterações,
+              de qualquer natureza, na  estrutura física das casas,
+              a exemplo de utilização de artefatos fixados  nas paredes, mudança de cor na pintura, construção de fogão de barro  e feitura de banheiros de palha.
+            </p>
+            <p className="mb-6 pr-100">
+              A data e o “tempo para fazer a mudança” para que os móveis e demais  objetos pertencentes aos realocados fossem retirados de suas casas,
+              foram definidos a partir de um planejamento do CLA, sem o  consentimento das famílias.
+              A estruturação das agrovilas e a  disposição das casas não considerou as relações familiares e de  vizinhança consolidadas nas comunidades.
+            </p>
           </div>
 
           <div
-            className="max-w-[60%] text-justify text-white z-20"
+            className="w-full text-justify text-white z-20"
             style={{
               color: "#F5F5DC"
             }}
           >
-            <blockquote className="italic text-2xl font-light text-justify text-[#F5F5DC] leading-relaxed pr-90 mb-16">
+            <blockquote className="italic text-3xl font-light text-justify text-[#F5F5DC] leading-relaxed pr-120 mb-14">
               “Você já viu uma criança mamar e a mãe não querer dar o peito? Foi o que eles fizeram com a gente!”
             </blockquote>
 
-            <blockquote className="italic text-2xl font-light text-justify text-[#F5F5DC] leading-relaxed mt-6 pr-40 mb-8">
+            <blockquote className="italic text-3xl font-light text-justify text-[#F5F5DC] leading-relaxed mt-8 mb-8 pr-10">
               “A temporada ruim foi quando viemos pra cá e perdemos tudo, nossa terra.
               Muito sofrimento, a falta de tudo o que ficou lá, muito sofrimento! Só
               tinha as casas e a areia e pra comer manga, tinha que ir lá no Pepital
               Velho, vinha com o pescoço doendo. Nessa época, foi um grande sofrimento!”
             </blockquote>
 
-            <p className="mt-4 text-lg font-medium text-justify text-[#F5F5DC] pr-40">
+            <p className="mt-4 text-lg font-medium text-justify text-[#F5F5DC]">
               — Leandra de Jesus Silveira, 83 anos, quilombola realocada de Pepital Velho para a agrovila Pepital.
             </p>
           </div>
@@ -69,35 +81,40 @@ export function ForcedDisplacementsPermanent() {
       </div>
 
       <div
-        className="relative bg-[#692610] py-20"
+        className="relative bg-[#692610] py-60"
       >
         <div
-          className="absolute left-0 w-full h-[200px] bg-gradient-to-b from-transparent via-[#a55c20e5] to-[#6b270a]"
+          className="absolute left-0 w-full h-[300px] bg-gradient-to-b from-transparent via-[#a55c20e5] to-[#6b270a]"
           style={{
             top: "-150px",
           }}
         ></div>
 
         <div
-          className="relative py-66 flex justify-between items-start max-w-7xl mx-auto "
+          className="relative py-70 flex justify-between items-start max-w-6xl mx-auto "
           style={{ marginTop: "-15.5rem", color: "#F5F5DC" }}
         >
-          <div className="w-2/3 text-white text-justify pr-8 z-20">
+          <div className="w-2/3 text-white text-justify pr-10 z-10 pl-5">
             <p className="mb-4">
               <p className="mb-4">
-                A data e o “tempo para fazer a mudança” para que os móveis e demais  objetos pertencentes aos realocados fossem retirados de suas casas,
-                foram definidos a partir de um planejamento dos do CLA, sem o  consentimento das famílias. A estruturação das agrovilas e a  disposição das
-                casas não considerou as relações familiares e de  vizinhança consolidadas nas comunidades.
-                As agrovilas foram  projetadas para reproduzir os brasões da Aeronáutica e a disposição  das casas seguiram o formato de cada brasão.
+                A partir do deslocamento para as agrovilas, os quilombolas foram  criaram novos critérios
+                para ampararem as novas famílias que se  formaram em razão das restrições alavancadas
+                principalmente, pelo  tamanho dos lotes que foram reduzidos de 45ha para 15ha,  impossibilitando
+                a reprodução social das famílias. A relação de  interdependência existente entre os quilombos
+                se mantém presente na
+                reconfiguração das práticas de solidariedade para a acomodação de  novas famílias nas agrovilas.
               </p>
             </p>
-            <p className="mb-4">
-              A partir do deslocamento para as agrovilas, os quilombolas foram  criaram novos critérios para ampararem as novas famílias que se
-              formaram em razão das restrições alavancadas principalmente, pelo  tamanho dos lotes que foram reduzidos de 45ha para 15ha,  impossibilitando
-              a reprodução social das famílias. A relação de  interdependência
-              existente entre os quilombos se mantém presente na  reconfiguração das práticas de solidariedade para a acomodação de  novas famílias nas agrovilas.
+            <blockquote className="italic text-3xl font-light text-justify text-[#F5F5DC] leading-relaxed mt-8 mb-8 pr-2">
+              “Toda ação tem uma reação, são novos impactos sociais. Mais de  quinze casas construídas posteriormente, famílias que os
+              filhos se  casaram e formaram famílias.
+              Para fazer casas novas, tem que reunir  com a comunidade. Lá, eu peço o lugar da casa, daí tem que definir o  lugar da casa e o tamanho do lote”.
+            </blockquote>
+
+            <p className="mt-2 text-lg font-normal text-justify text-[#F5F5DC]">
+              - Sebastiana Alves Costa, 38 anos, quilombola da agrovila Só Assim
             </p>
-            <p className="mb-4">
+            <p className="mb-4 mt-6">
               A política de deslocamento das comunidades quilombolas pelo CLA  concretiza-se em caráter permanente, tanto pela violência psicológica
               imputada aos quilombolas, quanto pela descontinuidade de políticas  públicas que, desarticuladas pelos poderes públicos, nas esferas
               estadual e municipal, promovem um deslocamento permanente dos  quilombolas, que pelo não acesso à educação, ao atendimento público  de saúde,
@@ -142,17 +159,36 @@ export function ForcedDisplacementsPermanent() {
 
             <div className="text-left mt-6 text-white text-lg relative z-10 flex items-center">
               <span>Para saber mais, acesse clicando</span>
-              <a href="#" className="font-semibold no-underline ml-1">aqui</a>
+              <a
+                href="/historias-padrinho-domingos%20(1).pdf"
+                className="font-semibold no-underline ml-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                aqui
+              </a>
               <img src={PastaIcon} alt="Ícone de Pasta" className="w-5 h-5 ml-2" />
             </div>
+
           </div>
-          <div className="w-1/3 flex flex-col space-y-24 items-end mt-40">
+          <div className="w-1/3 flex flex-col space-y-24 items-end mt-12">
+            {/* Agrovila Cajueiro */}
+            <div className="w-3/4">
+              <img
+                src={EscolaImage}
+                alt="Escola desativada, quilombo Mamuna"
+                className="h-[200px] w-[291px] object-cover rounded-lg opacity-90 border-4"
+                style={{ borderColor: "#AB9679" }}
+              />
+              <p className="text-right text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Escola desativada, quilombo Mamuna</p>
+              <p className="text-right text-xs" style={{ color: "#CEB490CC" }}>Foto: Gyordanna Silva</p>
+            </div>
             {/* Agrovila Cajueiro */}
             <div className="w-3/4">
               <img
                 src={Agrovila}
                 alt="Agrovila Cajueiro"
-                className="h-[119px] w-[282px] object-cover rounded-lg opacity-90 border-4"
+                className="h-[150px] w-[290px] object-cover rounded-lg opacity-90 border-4"
                 style={{ borderColor: "#AB9679" }}
               />
               <p className="text-left text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Agrovila Cajueiro</p>
@@ -164,7 +200,7 @@ export function ForcedDisplacementsPermanent() {
               <img
                 src={Maruda}
                 alt="Agrovila Marudá"
-                className="h-[119px] w-[282px] object-cover rounded-lg opacity-90 border-4"
+                className="h-[150px] w-[290px] object-cover rounded-lg opacity-90 border-4"
                 style={{ borderColor: "#AB9679" }}
               />
               <p className="text-right text-sm mt-1 italic pr-5" style={{ color: "#CEB490CC" }}>Agrovila Marudá</p>
@@ -176,7 +212,7 @@ export function ForcedDisplacementsPermanent() {
               <img
                 src={SoAssim}
                 alt="Agrovila Sô Assim"
-                className="h-[119px] w-[282px] object-cover rounded-lg opacity-90 border-4"
+                className="h-[150px] w-[290px] object-cover rounded-lg opacity-90 border-4"
                 style={{ borderColor: "#AB9679" }}
               />
               <p className="text-left text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Agrovila Sô Assim</p>
@@ -188,7 +224,7 @@ export function ForcedDisplacementsPermanent() {
               <img
                 src={Peru}
                 alt="Agrovila Peru"
-                className="h-[119px] w-[282px] object-cover rounded-lg opacity-90 border-4"
+                className="h-[150px] w-[290px] object-cover rounded-lg opacity-90 border-4"
                 style={{ borderColor: "#AB9679" }}
               />
               <p className="text-right text-sm mt-1 italic pr-5" style={{ color: "#CEB490CC" }}>Agrovila Peru</p>

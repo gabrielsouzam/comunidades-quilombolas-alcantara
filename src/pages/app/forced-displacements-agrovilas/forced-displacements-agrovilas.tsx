@@ -13,7 +13,7 @@ export function ForcedDisplacementsAgrovilas() {
       >
         <div
           className="max-w-[800px]"
-        
+
         >
           <h1 className="text-[26px] text-black">
             Deslocamento compulsório das comunidades quilombolas para as agrovilas
@@ -24,7 +24,7 @@ export function ForcedDisplacementsAgrovilas() {
         </div>
 
         <div
-          className="max-w-[90%] text-justify text-black z-20">
+          className="max-w-[100%] text-justify text-black z-20 mt-4">
           <p className="mb-4">
             Nos anos de 1986 e 1987, ocorreram os deslocamentos de 312 famílias de 23
             quilombos para sete agrovilas que reproduziram os nomes dos quilombos de onde foram
@@ -47,30 +47,32 @@ export function ForcedDisplacementsAgrovilas() {
         </div>
 
         <div
-          className="relative max-w-[100%] w-full px-14 text-white z-20 mt-16"
+          className="relative max-w-[100%] w-full  text-white z-20 mt-16"
         >
-          <div className="max-w-[44%] text-justify">
-            <blockquote className="italic text-2xl font-light text-justify text-[#F5F5DC] leading-relaxed ">
+          <div className="max-w-[46%] text-justify">
+            <blockquote className="italic text-3xl font-light text-justify text-[#F5F5DC] leading-relaxed ">
               “Nessa época, foi um grande sofrimento. Cada qual nos seus devidos lugares, onde nasceram e se criaram. A gente sofreu demais,
               chorei demais! Deixa eu chorar! Você já viu uma criança mamar e a mãe não querer mais dar o peito? Foi o que eles fizeram com a gente!”
             </blockquote>
-            <cite className="block mt-4 text-lg font-medium text-justify text-[#F5F5DC]">
+            <cite className="block mt-4 text-lg font-normal text-justify text-[#F5F5DC]">
               — Leandra de Jesus Silveira, 83 anos, quilombola realocada de Pepital Velho para a agrovila Pepital.
             </cite>
           </div>
-          <div className="max-w-[70%] pt-16 flex flex-col self-end z-20 ml-auto">
-            <blockquote className="italic text-2xl font-light text-justify text-[#F5F5DC] leading-relaxed pr-4">
-              “Cada lugar tem seu uso, como dizia minha avó! Agora não tá dando tanto, tudo foi diminuindo porque 
-              a terra tá diminuindo!”
+          <div className="max-w-[80%] pt-16 flex flex-col  z-20 ml-auto">
+            <blockquote className="italic text-3xl font-light text-justify text-[#F5F5DC]  leading-relaxed pr-8 ">
+              “A temporada mais ruim foi quando nós viemos pra cá e  perdemos tudo o que ficou lá, muito
+              sofrimento! Nós  tentamos voltar, mas não conseguimos. A gleba da terra  não é boa para plantar.
+              A gente trabalhava lá, mas não  prestava não.
+              Tenho duas filhas que moram aqui e elas  não tem lote, trabalham na gleba de outras pessoas”.”
             </blockquote>
-            <cite className="block mt-4 text-lg font-medium text-right text-[#F5F5DC] z-20">
+            <cite className="block mt-4 text-lg font-normal text-right text-[#F5F5DC] px-6 z-20">
               — Maria de Fátima Ferreira, 67 anos, quilombola realocada para a agrovila Mamuna.
             </cite>
           </div>
         </div>
       </div>
 
-      <div className="relative bg-[#501E0D] py-10 mt-22">
+      <div className="relative bg-[#501E0D] py-120 mt-22">
         <div className="absolute top-[-230px] left-0 w-full h-[280px] bg-gradient-to-b from-transparent via-[#000000] to-[#531e0c]"></div>
 
         <div className="relative flex justify-center z-10">
@@ -80,11 +82,20 @@ export function ForcedDisplacementsAgrovilas() {
             className="shadow-lg rounded-lg w-[70%] border border-gray-300 "
           />
         </div>
-        <div className="mt-6 text-white text-lg relative z-10 flex items-center justify-end pr-6">
+        <div className="mt-14 text-white text-lg relative z-10 flex items-center justify-end pr-50">
           <span>Para saber mais, acesse clicando</span>
-          <a href="#" className="font-semibold no-underline ml-1">aqui</a>
+          <a
+            href="/Mapa%203%20Comunidades%20Quilombolas%20Deslocadas%20e%20Agrovilas.png"
+            className="font-semibold no-underline ml-1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            aqui
+          </a>
           <img src={PastaIcon} alt="Ícone de Pasta" className="w-5 h-5 ml-2" />
         </div>
+
+
       </div>
     </div>
   );
