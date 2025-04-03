@@ -1,9 +1,10 @@
-import PastaIcon from "./../../../assets/pasta.png";
 import Agrovila from "./../../../assets/agrovilaCajueira.png";
 import Maruda from "./../../../assets/agrovilaMaruda.png";
 import Peru from "./../../../assets/agrovilaPeru.png";
 import SoAssim from "./../../../assets/agrovilaSoAssim.png";
+import PastaIcon from "./../../../assets/pasta.png";
 import VilarejoImage from "./../../../assets/vilarejo.png";
+import EscolaImage from "./../../../assets/escola.png";
 
 
 export function ForcedDisplacementsPermanent() {
@@ -75,28 +76,10 @@ export function ForcedDisplacementsPermanent() {
             <p className="mt-4 text-lg font-medium text-justify text-[#F5F5DC] ">
               — Leandra de Jesus Silveira, 83 anos, quilombola realocada de Pepital Velho para a agrovila Pepital.
             </p>
-            
-          </div>
-        </div>
-      </div>
+            <div className=" text-white text-justify z-10 pl-0 w-2/3">
 
-      <div
-        className="relative bg-[#692610] py-120 "
-      >
-        <div
-          className="absolute left-0 w-full h-[300px] bg-gradient-to-b from-transparent via-[#a55c20e5] to-[#6b270a]"
-          style={{
-            top: "-150px",
-          }}
-        ></div>
-
-        <div
-          className="pl-26 flex justify-between items-center w-full"
-          style={{ marginTop: "-15.5rem", color: "#F5F5DC" }}
-        >
-          <div className=" text-white text-justify z-10 pl-5 w-2/3">
             <p className="mb-4">
-              <p className="mb-4">
+              <p className="mb-4 mt-4">
                 A partir do deslocamento para as agrovilas, os quilombolas foram  criaram novos critérios
                 para ampararem as novas famílias que se  formaram em razão das restrições alavancadas
                 principalmente, pelo  tamanho dos lotes que foram reduzidos de 45ha para 15ha,  impossibilitando
@@ -160,7 +143,7 @@ export function ForcedDisplacementsPermanent() {
             <div className="text-left mt-6 text-white text-lg relative z-10 flex items-center">
               <span>Para saber mais, acesse clicando</span>
               <a
-                href="/historias-padrinho-domingos%20(1).pdf"
+                href= {EscolaImage}
                 className="font-semibold no-underline ml-1"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -169,9 +152,30 @@ export function ForcedDisplacementsPermanent() {
               </a>
               <img src={PastaIcon} alt="Ícone de Pasta" className="w-5 h-5 ml-2" />
             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="relative bg-[#692610] py-120 "
+      >
+        <div
+          className="absolute left-0 w-full h-[300px] bg-gradient-to-b from-transparent via-[#a55c20e5] to-[#6b270a]"
+          style={{
+            top: "-150px",
+          }}
+        ></div>
+
+        <div
+          className="px-26 flex justify-between items-center w-full"
+          style={{ color: "#F5F5DC" }}
+        >
+
+          <div className=" text-white text-justify z-10 pl-5 w-2/3">
           </div>
           
-          <div className="w-1/3 space-y-24 flex relative flex-col items-end -top-20 ">
+          <div className="w-1/3 space-y-24 flex relative flex-col items-end -top-50 ">
             <div className="w-3/4">
               <img
                 src={Agrovila}

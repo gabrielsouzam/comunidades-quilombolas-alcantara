@@ -85,7 +85,7 @@ export function ForcedDisplacementsAgrovilas() {
         <div className="mt-14 text-white text-lg relative z-10 flex items-center justify-end pr-50">
           <span>Para saber mais, acesse clicando</span>
           <a
-            href="/Mapa%203%20Comunidades%20Quilombolas%20Deslocadas%20e%20Agrovilas.png"
+            href= {MapaImage}
             className="font-semibold no-underline ml-1"
             target="_blank"
             rel="noopener noreferrer"

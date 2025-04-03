@@ -3,7 +3,8 @@ import mediumBall from "./../../../assets/medium-ball.png";
 import smallBall from "./../../../assets/small-ball.png";
 import PastaIcon from "./../../../assets/paste-icon.svg";
 import MapaGeral from "./../../../assets/mapageral.png";
-import Agrovila from "./../../../assets/agrovilaCajueira.png";
+import BaseA from "./../../../assets/baseA.jpg";
+import EspacoLancamento from "./../../../assets/espacoLancamento1.jpeg";
 
 
 export function Conflicts() {
@@ -69,7 +70,7 @@ export function Conflicts() {
             Confira área desapropriada para implantação do Centro <br />de
             Lançamento de Alcântara - CLA clicando
             <a
-              href="/Mapa%202%20Área%20do%20decreto%2062000ha.png"
+              href= {MapaGeral}
               className="font-semibold no-underline inline mt-7 ml-2"
               target="_blank"
               rel="noopener noreferrer"
@@ -93,7 +94,7 @@ export function Conflicts() {
             <div className=" flex flex-col space-y-24 items-end mt-0 ">
               <div className="w-3/4">
                 <img
-                  src={Agrovila}
+                  src={EspacoLancamento}
                   alt="Escola desativada, quilombo Mamuna"
                   className="h-[258px] w-[380px] object-cover rounded-lg opacity-90 border-4"
                   style={{ borderColor: "#AB9679" }}
@@ -104,7 +105,7 @@ export function Conflicts() {
 
               <div className="w-3/4">
                 <img
-                  src={Agrovila}
+                  src={BaseA}
                   alt="Escola desativada, quilombo Mamuna"
                   className="h-[258px] w-[380px] object-cover rounded-lg opacity-90 border-4"
                   style={{ borderColor: "#AB9679" }}
