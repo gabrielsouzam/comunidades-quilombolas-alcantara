@@ -6,6 +6,7 @@ import { ForcedDisplacementsAgrovilas } from "./pages/app/forced-displacements-a
 import { ForcedDisplacementsPermanent } from "./pages/app/forced-displacements-permanent/forced-displacements-permanent";
 import { RepresentativeEntities } from "./pages/app/representative-entities/representative-entities";
 import { Ancestry } from "./pages/app/ancestry/ancestry";
+import { LearnMore } from "./pages/app/learn-more/learn-more";
 
 export const router = createBrowserRouter([
   {
@@ -17,7 +18,8 @@ export const router = createBrowserRouter([
       { path: "/deslocamentos-compulsorios-agrovilas", element: <ForcedDisplacementsAgrovilas /> },
       { path: "/deslocamentos-compulsorios-permanente", element: <ForcedDisplacementsPermanent /> },
       { path: "/entidades-representativas", element: <RepresentativeEntities /> },
-      { path: "/ancestralidade", element: <Ancestry /> }
+      { path: "/ancestralidade", element: <Ancestry /> },
+      { path: "/saiba-mais", element: <LearnMore /> }
     ]
   }
 ]);
