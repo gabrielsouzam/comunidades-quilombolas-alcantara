@@ -13,7 +13,6 @@ export function Home() {
 
   const [selectedMarkerId, setSelectedMarkerId] = useState<number | null>(null);
 
-  // Obtém os dados do marcador selecionado
   const selectedMarker = quilombos.find(marker => marker.id === selectedMarkerId);
 
 
@@ -22,7 +21,7 @@ export function Home() {
 
       <section
         className="relative w-full h-[859px] bg-cover bg-center"
-        style={{ backgroundImage: `url(${homeBgImage})`  }}
+        style={{ backgroundImage: `url(${homeBgImage})` }}
       >
 
         <img src={elipse3} alt="elipse 3" />
@@ -56,21 +55,28 @@ export function Home() {
             <h2 className="text-[40px] font-[400] text-[#B36320]">
               “Ovo não briga com pedra, mas lambuza!”
             </h2>
-            <p className="italic mt-8 text-[24px] text-[#B36320] font-[400]">
-              Expressão falada pelos intelectuais quilombolas de  diferentes quilombos do território étnico de Alcântara
-              – MA evidencia a força da resistência e a  luta pela manutenção do território étnico frente ao conflito de
-              mais de 40 décadas instaurado a  partir da implantação do Centro de Lançamento de Alcântara – CLA, na década
-              de 1980.
+            <p className="mt-8 text-[20px] text-[#B36320] text-justify font-[400]">
+              A expressão falada pelos intelectuais quilombolas de  diferentes quilombos do território étnico de Alcântara – MA
+              evidencia a força da resistência e a  luta pela manutenção do território étnico frente ao conflito de mais de 40
+              anos instaurado a partir  da implantação do Centro de Lançamento de Alcântara – CLA, na década de 1980. Ancorados
+              na ancestralidade, no reforço dos elementos identitários, nas práticas coletivas de uso comum  dos recursos
+              naturais, nos saberes e fazeres de resistência cotidianos, os intelectuais  quilombolas de Alcântara ressignificaram
+              conceitos elaborados a partir da lógica colonial e  produziram uma “epistemologia outra” nas diferentes fronteiras do
+              território étnico. Compreende-se o conceito de epistemologia enquanto a noção sobre as condições que definem os vários
+              saberes como válidos, não se detendo ao saber dito científico como única ideia de “conhecimento  seguro” e aos critérios
+              adotados pela academia ao reproduzir relações hierárquicas de poder. Há  de ter-se o devido respeito pelas diferentes
+              formas de compreensão do mundo social,  observando que uma releitura crítica dos fundamentos epistemológicos ocidentais
+              auxilia na  desconstrução de uma política de interpretação única e dos processos impositivos derivados do  discurso
+              ocidental.
             </p>
 
             <p className="mt-8 text-[20px] text-[#B36320] text-justify font-[400]">
-              Ancorados na ancestralidade, no reforço dos elementos identitários e na ressignificação dos  saberes tradicionais
-              e das práticas coletivas de uso comum dos recursos naturais, nos saberes  e fazeres epistemológicos cotidianos,
-              os intelectuais quilombolas de Alcântara ressignificaram  conceitos elaborados a partir da lógica colonial e
-              produziram uma “epistemologia outra” nas  diferentes fronteiras do território étnico. Conceitos cunhados pela
-              Epistemologia Ocidental, a  exemplo de quilombo, identidade, território, foram ressignificados coletivamente,
-              deslocando-se  as categorias de entendimento para uma significação singular que criou as condições de
-              possibilidade para a elaboração de uma episteme alternativa, a “Epistemologia da Resistência”.
+              A Epistemologia Ocidental não reconhece como válidos outras formas de saberes socialmente  construídos. Os saberes
+              são colocados numa escala de hierarquização que os inferioriza, sem  que se analisem as condições e as mobilizações
+              que constituíram suas produções. Conceitos  cunhados pela Epistemologia Ocidental, a exemplo de quilombo,
+              identidade e território, foram  ressignificados coletivamente, deslocando-se as categorias de entendimento para
+              uma  significação singular que criou as condições de possibilidade para a elaboração de uma episteme  alternativa,
+              a “Epistemologia da Resistência”.
             </p>
           </div>
           <img src={elipse4} alt="elipse 4" />
@@ -94,11 +100,21 @@ export function Home() {
               outros materiais sugeridos nos links e QrCodes, que tratam da história social e da “Epistemologia da
               Resistência” elaborada pelos intelectuais quilombolas do Território Étnico de Alcântara – MA.
             </p>
+
+            <p className="mt-4 italic text-justify text-[20px] text-[#CCAC85] font-[400]">
+              Objetiva-se que os usuários da plataforma possam consultar informações sobre o território  étnico, os saberes e
+              fazeres de resistência vivenciados pelos intelectuais quilombolas no  cotidiano de seus quilombos e das práticas
+              mobilizatórias em suas diferentes fronteiras nos  diversos espaços sociais ocupados, por meio do acesso ao mapa
+              interativo, fotografias,  trechos  de entrevistas, publicações de livros e outros materiais sugeridos nos links e
+              QrCodes, que  tratam da história social e da “Epistemologia da Resistência” elaborada pelos intelectuais
+              quilombolas do Território Étnico de Alcântara – MA.
+            </p>
           </div>
 
           <img
             src={elipse5}
             alt="elipse com foto"
+            className="w-[500px] h-[500px]"
           />
         </div>
       </section>
@@ -109,9 +125,8 @@ export function Home() {
           Navegue pelo mapa e descubra um pouco sobre as comunidades quilombolas de Alcântara
         </p>
         <div className="flex flex-row mt-8 gap-[30px]">
-           <ImageMap markersData={quilombos} onSelectMarker={setSelectedMarkerId} />
+          <ImageMap markersData={quilombos} onSelectMarker={setSelectedMarkerId} />
 
-          {/* Exibe os detalhes do marcador selecionado no Card */}
           <Card
             title={selectedMarker ? selectedMarker.title : "Escolha um ponto no mapa"}
             description={selectedMarker ? selectedMarker.description : "Clique em um marcador para ver os detalhes."}
