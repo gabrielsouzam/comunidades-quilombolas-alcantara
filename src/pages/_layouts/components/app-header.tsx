@@ -25,6 +25,9 @@ export function AppHeader() {
         <Link to="/ancestralidade" className="font-light  hover:text-zinc-50 transition-colors duration-200">
           Ancestralidade
         </Link>
+        <Link to="/saiba-mais" className="font-light  hover:text-zinc-50 transition-colors duration-200">
+          Saiba Mais
+        </Link>
       </nav>
 
     </header>
