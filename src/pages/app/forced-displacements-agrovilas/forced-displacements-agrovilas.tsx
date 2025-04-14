@@ -24,7 +24,7 @@ export function ForcedDisplacementsAgrovilas() {
         </div>
 
         <div
-          className="max-w-[100%] text-justify text-black z-20 mt-4">
+          className="max-w-[100%] text-justify text-xl text-black z-20 mt-4">
           <p className="mb-4">
             Nos anos de 1986 e 1987, ocorreram os deslocamentos de 312 famílias de 23
             quilombos para sete agrovilas que reproduziram os nomes dos quilombos de onde foram
@@ -68,22 +68,15 @@ export function ForcedDisplacementsAgrovilas() {
             <cite className="block mt-4 text-lg font-normal text-right text-[#F5F5DC] px-6 z-20">
               — Maria de Fátima Ferreira, 67 anos, quilombola realocada para a agrovila Mamuna.
             </cite>
+
           </div>
         </div>
       </div>
 
       <div className="relative bg-[#501E0D] py-120 mt-22">
         <div className="absolute top-[-230px] left-0 w-full h-[280px] bg-gradient-to-b from-transparent via-[#000000] to-[#531e0c]"></div>
-
-        <div className="relative flex justify-center z-10">
-          <img
-            src={MapaImage}
-            alt="Mapa das comunidades quilombolas deslocadas"
-            className="shadow-lg rounded-lg w-[70%] border border-gray-300 "
-          />
-        </div>
-        <div className="mt-14 text-white text-lg relative z-10 flex items-center justify-end pr-50">
-          <span>Para saber mais, acesse clicando</span>
+        <div className="mt-14 text-white text-lg relative z-10 flex items-center justify-end pr-34">
+        <span>Para saber mais, acesse clicando</span>
           <a
             href= {MapaImage}
             className="font-semibold no-underline ml-1"
@@ -94,8 +87,6 @@ export function ForcedDisplacementsAgrovilas() {
           </a>
           <img src={PastaIcon} alt="Ícone de Pasta" className="w-5 h-5 ml-2" />
         </div>
-
-
       </div>
     </div>
   );
