@@ -5,13 +5,13 @@ import SoAssim from "./../../../assets/agrovilaSoAssim.png";
 import PastaIcon from "./../../../assets/pasta.png";
 import VilarejoImage from "./../../../assets/vilarejo.png";
 import EscolaImage from "./../../../assets/escola.png";
-
-
+import Entidades2Image from "./../../../assets/entidadesR2.png";
+import Entidades from "./../../../assets/entidadesR.png";
 export function ForcedDisplacementsPermanent() {
   return (
     <div className="font-['Open_Sans']">
       <div
-        className="relative h-[56.25rem] bg-cover bg-center bg-no-repeat px-30 py-24"
+        className="relative h-[100.25rem] bg-cover bg-center bg-no-repeat px-30 py-24"
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(139, 69, 19, 0.85)), url(${VilarejoImage})`,
         }}
@@ -20,17 +20,17 @@ export function ForcedDisplacementsPermanent() {
           className=" text-white"
         >
           <h1 className="text-[28px] font-normal">
-            Deslocamento compulsório permanente
+            Deslocamento compulsórios permanentes
           </h1>
         </div>
 
         <div
-          className=" flex justify-between flex-col gap-11 text-white text-justify"
+          className=" flex justify-between flex-col gap-11 text-xl text-white text-justify"
           style={{
             color: "#F5F5DC"
           }}
         >
-          <div className="w-full pr-1">
+          <div className="w-full pr-1 mt-7">
             <p className="mb-6">
               O deslocamento compulsório dos quilombolas para as agrovilas em 1986 continua,
               ao longo dos anos, reproduzindo práticas de violência cotidianas, seja em
@@ -38,10 +38,12 @@ export function ForcedDisplacementsPermanent() {
               de sobrevivência e reprodução social das famílias.
             </p>
             <p className="mb-6">
-              A violência praticada pelos atos do Estado no que se refere aos deslocamentos compulsórios
+              A violência praticada pelos atos de Estado no que se refere aos deslocamentos compulsórios
               é evidenciada desde a forma como se deu a abordagem do Centro de Lançamento de Alcântara - CLA
               às famílias no período anterior à retirada dos quilombolas de seus quilombos, sem prévia consulta,
-              e durante todo processo que configurou a mudança das famílias.
+              e durante todo processo que configurou a mudança das famílias. A construção das agrovilas e as imposições
+              acerca da utilização das casas, permitem
+              compreender a violência simbólica e a eficácia dos mecanismos de coerção e controle sobre as famílias.
             </p>
             <p className="mb-6 pr-100">
               As agrovilas foram projetadas para reproduzir os  brasões da Aeronáutica e a disposição das casas
@@ -56,6 +58,30 @@ export function ForcedDisplacementsPermanent() {
             </p>
           </div>
 
+          <div className="absolute top-90 right-10 h-full flex flex-col justify-start gap-8 py-24 pr-16">
+
+            <div className="w-[290px]">
+              <p className="text-lg font-semibold text-[#F5F5DC] text-center mb-12">
+                Confira outras imagens do território étnico
+              </p>
+              <img
+                src={Entidades}
+                alt="Agrovila Cajueiro"
+                className="h-[150px] w-full object-cover rounded-lg opacity-90 border-4"
+                style={{ borderColor: "#AB9679" }}
+              />
+            </div>
+
+            <div className="w-[290px] mt-20">
+              <img
+                src={Entidades2Image}
+                alt="Agrovila Marudá"
+                className="h-[150px] w-full object-cover rounded-lg opacity-90 border-4"
+                style={{ borderColor: "#AB9679" }}
+              />
+            </div>
+          </div>
+
           <div
             className="w-full text-justify text-white z-20"
             style={{
@@ -66,7 +92,7 @@ export function ForcedDisplacementsPermanent() {
               “Você já viu uma criança mamar e a mãe não querer dar o peito? Foi o que eles fizeram com a gente!”
             </blockquote>
 
-            <blockquote className="italic text-3xl font-light text-justify text-[#F5F5DC] leading-relaxed mt-8 mb-8 pr-10">
+            <blockquote className="italic text-3xl font-light text-justify text-[#F5F5DC] leading-relaxed mt-6 mb-8 pr-10">
               “A temporada ruim foi quando viemos pra cá e perdemos tudo, nossa terra.
               Muito sofrimento, a falta de tudo o que ficou lá, muito sofrimento! Só
               tinha as casas e a areia e pra comer manga, tinha que ir lá no Pepital
@@ -78,80 +104,78 @@ export function ForcedDisplacementsPermanent() {
             </p>
             <div className=" text-white text-justify z-10 pl-0 w-2/3">
 
-            <p className="mb-4">
-              <p className="mb-4 mt-4">
-                A partir do deslocamento para as agrovilas, os quilombolas foram  criaram novos critérios
-                para ampararem as novas famílias que se  formaram em razão das restrições alavancadas
-                principalmente, pelo  tamanho dos lotes que foram reduzidos de 45ha para 15ha,  impossibilitando
-                a reprodução social das famílias. A relação de  interdependência existente entre os quilombos
-                se mantém presente na
-                reconfiguração das práticas de solidariedade para a acomodação de  novas famílias nas agrovilas.
+              <p className="mb-4">
+                <p className="mb-4 mt-6">
+                  A partir do deslocamento para as agrovilas, os quilombolas foram  criaram novos critérios
+                  para ampararem as novas famílias que se  formaram em razão das restrições alavancadas
+                  principalmente, pelo  tamanho dos lotes que foram reduzidos de 45ha para 15ha,  impossibilitando
+                  a reprodução social das famílias. A relação de  interdependência existente entre os quilombos
+                  se mantém presente na
+                  reconfiguração das práticas de solidariedade para a acomodação de  novas famílias nas agrovilas.
+                </p>
               </p>
-            </p>
-            <blockquote className="italic text-3xl font-light text-justify text-[#F5F5DC] leading-relaxed mt-8 mb-8 pr-2">
-              “Toda ação tem uma reação, são novos impactos sociais. Mais de  quinze casas construídas posteriormente, famílias que os
-              filhos se  casaram e formaram famílias.
-              Para fazer casas novas, tem que reunir  com a comunidade. Lá, eu peço o lugar da casa, daí tem que definir o  lugar da casa e o tamanho do lote”.
-            </blockquote>
+              <blockquote className="italic text-3xl font-light text-justify text-[#F5F5DC] leading-relaxed mt-8 mb-8 pr-2">
+                “Toda ação tem uma reação, são novos impactos sociais. Mais de  quinze casas construídas posteriormente, famílias que os
+                filhos se  casaram e formaram famílias.
+                Para fazer casas novas, tem que reunir  com a comunidade. Lá, eu peço o lugar da casa, daí tem que definir o  lugar da casa e o tamanho do lote”.
+              </blockquote>
 
-            <p className="mt-2 text-lg font-normal text-justify text-[#F5F5DC]">
-              - Sebastiana Alves Costa, 38 anos, quilombola da agrovila Só Assim
-            </p>
-            <p className="mb-4 mt-6">
-              A política de deslocamento das comunidades quilombolas pelo CLA  concretiza-se em caráter permanente, tanto pela violência psicológica
-              imputada aos quilombolas, quanto pela descontinuidade de políticas  públicas que, desarticuladas pelos poderes públicos, nas esferas
-              estadual e municipal, promovem um deslocamento permanente dos  quilombolas, que pelo não acesso à educação, ao atendimento público  de saúde,
-              à escassez de água potável, às péssimas condições das  Veja fotografias das  agrovilas  Agrovila Cajueiro   Foto: Elitiel Guedes  Agrovila Marudá
-              Foto: Elitiel Guedes  Agrovila Só Assim   Foto: Elitiel Guedes  Agrovila Peru   Foto: Elitiel Guedes  Falta inserir: Pepital,  Ponta Seca e Espera
-              estradas, meios de transportes e a não instalação da rede de energia  elétrica, são forçados a saírem compulsoriamente de seus territórios.
-            </p>
-            <blockquote className="italic text-2xl font-light text-left text-[#F5F5DC] leading-relaxed mt-6">
-              “Tudo o que muda, murcha! Eles [CLA] deixam a pessoa sem escolha!”
-            </blockquote>
+              <p className="mt-2 text-lg font-normal text-justify text-[#F5F5DC]">
+                - Sebastiana Alves Costa, 38 anos, quilombola da agrovila Só Assim
+              </p>
+              <p className="mb-4 mt-6 text-xl">
+                A política de deslocamento das comunidades quilombolas pelo CLA  concretiza-se em caráter permanente, tanto pela violência psicológica
+                imputada aos quilombolas, quanto pela descontinuidade de políticas  públicas que, desarticuladas pelos poderes públicos, nas esferas
+                estadual e municipal, promovem um deslocamento permanente dos  quilombolas, que pelo não acesso à educação, ao atendimento público  de saúde,
+                à escassez de água potável, às péssimas condições das estradas, meios de transportes e a não instalação da rede de energia  elétrica, são forçados a saírem compulsoriamente de seus territórios.
+              </p>
+              <blockquote className="italic text-3xl font-light text-left text-[#F5F5DC] leading-relaxed mt-6">
+                “Tudo o que muda, murcha! Eles [CLA] deixam a pessoa sem escolha!”
+              </blockquote>
 
-            <p className="mt-4 text-lg font-medium text-left text-[#F5F5DC]">
-              — Carlos Adelman, 44 anos, quilombo Pacurí
-            </p>
+              <p className="mt-4 text-lg font-medium text-left text-[#F5F5DC]">
+                — Carlos Adelman, 44 anos, quilombo Pacurí
+              </p>
 
-            <p className="mb-4 mt-4">
-              A descontinuidade das políticas públicas modifica as práticas de  resistência dos quilombolas no território, a exemplo do que ocorreu com
-              o quilombo Baracatatiua, que possui atualmente apenas duas famílias.  A escola, que anteriormente, funcionava na modalidade de ensino  multiseriado,
-              fora desestruturada, obrigando os pais a deslocarem seus  filhos pequenos para outros quilombos. O transporte escolar apresenta  condições precárias
-              e, por vezes, tem o serviço interrompido, em razão  da falta de manutenção dos veículos e das condições críticas das  estradas vicinais de acesso aos
-              quilombos vizinhos. As crianças que  precisam fazer o deslocamento diário para os quilombos onde  funcionam as escolas polo relatam não se sentirem
-              devidamente  acolhidas em razão do caráter de pertencimento, uma vez que as  relações sociais não foram estreitadas como ocorre em seus quilombos
-              de origem, demonstram cansaço excessivo pelo tempo de  deslocamento que se inicia ainda na madrugada e o não acesso à  merenda
-              escolar por interrupções constantes do poder público  municipal no repasse dos alimentos, o que ocasiona dificuldades  permanentes de aprendizagem.
-            </p>
-            <p className="mb-4">
-              As descontinuidades de políticas públicas vinculadas à questão da  saúde, constatam-se na desativação de postos de saúde, o que  ocasiona o não
-              acesso às consultas e procedimentos de rotina na  maioria dos quilombos. Os serviços são agregados em postos de saúde  que funcionam como polos
-              e os quilombolas precisam fazer o  deslocamento constante de seus quilombos para acessarem consultas,  vacinas e outros procedimentos que em geral,
-              são encaminhados pelos  quilombolas agentes de saúde. Apesar dos instrumentos de coerção,  desmobilização e deslocamento compulsório de caráter permanente
-              imputados pelo CLA, respaldado por uma política estadual e municipal  de descontinuidade de políticas públicas, os quilombolas continuam  reforçando
-              suas práticas de resistência cotidiana e frente à ameaça de  novos deslocamentos,
-              reafirmam os laços de solidariedade e se  posicionam contrários a qualquer ação do CLA que promova novas  alterações no território étnico.
-            </p>
-            <blockquote className="italic text-2xl font-light text-left text-[#F5F5DC] leading-relaxed mt-6">
-              “É como uma planta, se tirar daqui, vai mudar muita coisa!”
-            </blockquote>
+              <p className="mb-4 mt-4 text-xl">
+                A descontinuidade das políticas públicas modifica as práticas de  resistência dos quilombolas no território, a exemplo do que ocorreu com
+                o quilombo Baracatatiua, que possui atualmente apenas duas famílias.  A escola, que anteriormente, funcionava na modalidade de ensino  multiseriado,
+                fora desestruturada, obrigando os pais a deslocarem seus  filhos pequenos para outros quilombos. O transporte escolar apresenta  condições precárias
+                e, por vezes, tem o serviço interrompido, em razão  da falta de manutenção dos veículos e das condições críticas das  estradas vicinais de acesso aos
+                quilombos vizinhos. As crianças que  precisam fazer o deslocamento diário para os quilombos onde  funcionam as escolas polo relatam não se sentirem
+                devidamente  acolhidas em razão do caráter de pertencimento, uma vez que as  relações sociais não foram estreitadas como ocorre em seus quilombos
+                de origem, demonstram cansaço excessivo pelo tempo de  deslocamento que se inicia ainda na madrugada e o não acesso à  merenda
+                escolar por interrupções constantes do poder público  municipal no repasse dos alimentos, o que ocasiona dificuldades  permanentes de aprendizagem.
+              </p>
+              <p className="mb-4 text-xl">
+                As descontinuidades de políticas públicas vinculadas à questão da  saúde, constatam-se na desativação de postos de saúde, o que  ocasiona o não
+                acesso às consultas e procedimentos de rotina na  maioria dos quilombos. Os serviços são agregados em postos de saúde  que funcionam como polos
+                e os quilombolas precisam fazer o  deslocamento constante de seus quilombos para acessarem consultas,  vacinas e outros procedimentos que em geral,
+                são encaminhados pelos  quilombolas agentes de saúde. Apesar dos instrumentos de coerção,  desmobilização e deslocamento compulsório de caráter permanente
+                imputados pelo CLA, respaldado por uma política estadual e municipal  de descontinuidade de políticas públicas, os quilombolas continuam  reforçando
+                suas práticas de resistência cotidiana e frente à ameaça de  novos deslocamentos,
+                reafirmam os laços de solidariedade e se  posicionam contrários a qualquer ação do CLA que promova novas  alterações no território étnico.
+              </p>
+              <blockquote className="italic text-3xl font-light text-left text-[#F5F5DC] leading-relaxed mt-6">
+                “É como uma planta, se tirar daqui, vai mudar muita coisa!”
+              </blockquote>
 
-            <p className="mt-4 text-lg font-medium text-left text-[#F5F5DC]">
-              — Damião Amorim Lopes, 70 anos, quilombo Mocajubal
-            </p>
+              <p className="mt-4 text-lg font-medium text-left text-[#F5F5DC]">
+                — Damião Amorim Lopes, 70 anos, quilombo Mocajubal
+              </p>
 
-            <div className="text-left mt-6 text-white text-lg relative z-10 flex items-center">
-              <span>Para saber mais, acesse clicando</span>
-              <a
-                href= {EscolaImage}
-                className="font-semibold no-underline ml-1"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                aqui
-              </a>
-              <img src={PastaIcon} alt="Ícone de Pasta" className="w-5 h-5 ml-2" />
-            </div>
+              <div className="text-left mt-6 text-white text-lg relative z-10 flex items-center">
+                <span>Para saber mais, acesse clicando</span>
+                <a
+                  href={EscolaImage}
+                  className="font-semibold no-underline ml-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  aqui
+                </a>
+                <img src={PastaIcon} alt="Ícone de Pasta" className="w-5 h-5 ml-2" />
+              </div>
             </div>
           </div>
         </div>
@@ -174,13 +198,13 @@ export function ForcedDisplacementsPermanent() {
 
           <div className=" text-white text-justify z-10 pl-5 w-2/3">
           </div>
-          
-          <div className="w-1/3 space-y-24 flex relative flex-col items-end -top-50 ">
+
+          <div className="w-1/3 space-y-24 flex relative flex-col items-end -top-160 ">
             <div className="w-3/4">
               <img
                 src={Agrovila}
                 alt="Agrovila Cajueiro"
-                className="h-[150px] w-[290px] object-cover rounded-lg opacity-90 border-4"
+                className="h-[200px] w-[350px] object-cover rounded-lg opacity-90 border-4"
                 style={{ borderColor: "#AB9679" }}
               />
               <p className="text-left text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Agrovila Cajueiro</p>
@@ -192,7 +216,7 @@ export function ForcedDisplacementsPermanent() {
               <img
                 src={Maruda}
                 alt="Agrovila Marudá"
-                className="h-[150px] w-[290px] object-cover rounded-lg opacity-90 border-4"
+                className="h-[200px] w-[350px]  object-cover rounded-lg opacity-90 border-4"
                 style={{ borderColor: "#AB9679" }}
               />
               <p className="text-left text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Agrovila Marudá</p>
@@ -204,7 +228,7 @@ export function ForcedDisplacementsPermanent() {
               <img
                 src={SoAssim}
                 alt="Agrovila Sô Assim"
-                className="h-[150px] w-[290px] object-cover rounded-lg opacity-90 border-4"
+                className="h-[200px] w-[350px]  object-cover rounded-lg opacity-90 border-4"
                 style={{ borderColor: "#AB9679" }}
               />
               <p className="text-left text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Agrovila Sô Assim</p>
@@ -216,7 +240,7 @@ export function ForcedDisplacementsPermanent() {
               <img
                 src={Peru}
                 alt="Agrovila Peru"
-                className="h-[150px] w-[290px] object-cover rounded-lg opacity-90 border-4"
+                className="h-[200px] w-[350px]  object-cover rounded-lg opacity-90 border-4"
                 style={{ borderColor: "#AB9679" }}
               />
               <p className="text-left text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Agrovila Peru</p>

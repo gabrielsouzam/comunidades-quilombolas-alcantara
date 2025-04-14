@@ -1,10 +1,10 @@
 import bigBall from "./../../../assets/big-ball.png";
 import mediumBall from "./../../../assets/medium-ball.png";
 import smallBall from "./../../../assets/small-ball.png";
-import PastaIcon from "./../../../assets/paste-icon.svg";
+import PastaBege from "./../../../assets/pastaBege.png";
 import MapaGeral from "./../../../assets/mapageral.png";
-import BaseA from "./../../../assets/baseA.jpg";
 import EspacoLancamento from "./../../../assets/espacoLancamento1.jpeg";
+import EspacoLancamentoTodo from "./../../../assets/substituta.png";
 
 
 export function Conflicts() {
@@ -20,8 +20,8 @@ export function Conflicts() {
 
         <div className="flex items-center gap-15">
           <p className="mt-4 text-justify text-[#28130A] text-sm md:text-base">
-            Em 1980, o governo federal por meio do decreto 7.820, desapropriou por fins de utilidade pública
-            e equivalente a 52.711 hectares no município de Alcântara para a implantação da Base de Lançamento
+            Em 1980, o governo federal desapropriou para fins de utilidade pública
+            o equivalente a 52.711 hectares no município de Alcântara para a implantação da Base de Lançamento
             de Foguetes. Ainda na mesma época, a área desapropriada foi incorporada ao patrimônio da União e
             posteriormente destinada ao então Ministério da Aeronáutica para a implementação do projeto estratégico e
             de segurança nacional representado pelo Ministério da Aeronáutica, para instalação e funcionamento do Centro
@@ -65,54 +65,49 @@ export function Conflicts() {
 
       {/* Rodapé final com link e imagem */}
       <div className="bg-[#222F1B] text-[#CCAC85] px-6 md:px-12 py-8 relative">
-        <div className="text-left text-lg z-10 flex items-center mb-6 ml-10 md:ml-24">
+        <div className="text-left text-lg z-10 flex items-center mb-6 ml-10 md:ml-20">
           <span>
             Confira área desapropriada para implantação do Centro <br />de
-            Lançamento de Alcântara - CLA clicando
+            Lançamento de Alcântara - CLA clicando{" "}
             <a
-              href= {MapaGeral}
-              className="font-semibold no-underline inline mt-7 ml-2"
+              href={MapaGeral}
+              className="font-semibold no-underline inline-flex items-center"
               target="_blank"
               rel="noopener noreferrer"
             >
               aqui
+              <img src={PastaBege} alt="Ícone de Pasta" className="w-5 h-5 ml-2" />
             </a>
           </span>
-
-          <img src={PastaIcon} alt="Ícone de Pasta" className="w-5 h-5 ml-4" />
         </div>
-
-
         <div className="w-full flex justify-start ml-10 md:ml-24">
-          <img
-            src={MapaGeral}
-            alt="Mapa Geral"
-            className="w-full max-w-[540px] rounded-md shadow-md"
-          />
+          <div className="w-full flex  items-center gap-40 mt-14">
+            <div className="max-w-[35%] justify-center">
+              <img
+                src={EspacoLancamento}
+                alt="Centro de Lançamento de Alcântara – MA"
+                className="object-cover rounded-lg opacity-90 border-4 border-[#AB9679] w-full"
+              />
+              <p className="text-left text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>
+                Centro de Lançamento de Alcântara – MA
+              </p>
+              <p className="text-left text-xs" style={{ color: "#CEB490CC" }}>
+                Foto: Elitiel Guedes
+              </p>
+            </div>
 
-          <div className="relative -top-22 w-1/3 left-20">
-            <div className=" flex flex-col space-y-24 items-end mt-0 ">
-              <div className="w-3/4">
-                <img
-                  src={EspacoLancamento}
-                  alt="Escola desativada, quilombo Mamuna"
-                  className="h-[258px] w-[380px] object-cover rounded-lg opacity-90 border-4"
-                  style={{ borderColor: "#AB9679" }}
-                />
-                <p className="text-right text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Centro de Lançamento  de Alcântara – MA</p>
-                <p className="text-right text-xs" style={{ color: "#CEB490CC" }}>Foto: Elitiel Guedes</p>
-              </div>
-
-              <div className="w-3/4">
-                <img
-                  src={BaseA}
-                  alt="Escola desativada, quilombo Mamuna"
-                  className="h-[258px] w-[380px] object-cover rounded-lg opacity-90 border-4"
-                  style={{ borderColor: "#AB9679" }}
-                />
-                <p className="text-right text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>II Seminário Alcântara: a  Base Espacial e os Impasses  Sociais</p>
-                <p className="text-right text-xs" style={{ color: "#CEB490CC" }}>Foto: Contraf Brasil</p>
-              </div>
+            <div className="max-w-[40%] justify-center">
+              <img
+                src={EspacoLancamentoTodo}
+                alt="Parte da área litorânea ocupada pelo Centro de Lançamento de Alcântara - CLA"
+                className="object-cover rounded-lg opacity-90 border-4 border-[#AB9679] w-full"
+              />
+              <p className="text-left text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>
+              Parte da área litorânea ocupada pelo Centro de Lançamento de Alcântara - CLA
+              </p>
+              <p className="text-left text-xs" style={{ color: "#CEB490CC" }}>
+                Foto: Elitiel Guedes
+              </p>
             </div>
           </div>
 
