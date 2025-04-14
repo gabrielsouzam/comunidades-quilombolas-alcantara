@@ -1,5 +1,5 @@
 import boats from "../../../../assets/boats.png"
-import redeDePesca from "../../../../assets/rede-de-pesca.png"
+import redeDePesca from "../../../../assets/rede-de-pesca.jpg"
 
 export function Fishing() {
   return (
@@ -25,10 +25,10 @@ export function Fishing() {
             <img
               src={redeDePesca}
               alt=""
-              className="shadow-lg  min-w-[23.75rem] h-[23.43rem]"
+              className="border-8 border-white shadow-lg  min-w-[23.75rem] h-[23.43rem]"
             />
-            <p className="font-normal italic text-xl"> Redes de pesca (malhão) - Quilombo Canelatiua</p>
-            <p className="font-normal text-[10px]">Foto: Davi Pereira Júnior</p>
+            <p className="font-normal italic text-xl"> Redes de pesca - Quilombo Samucangaua</p>
+            <p className="font-normal text-[10px]">Foto: Gyordanna Silva</p>
 
           </div>
 
