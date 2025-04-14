@@ -37,7 +37,7 @@ export function Home() {
               "Ovo não briga com pedra, mas lambuza!"
             </h2>
             <p className="italic mt-2 text-[32px] text-[#28130A] font-light leading-snug">
-              Insurreição de saberes e a Epistemologia da Resistência dos intelectuais quilombolas de Alcântara – MA.
+              Insurreição de saberes e a "Epistemologia da Resistência" dos intelectuais quilombolas de Alcântara – MA.
             </p>
           </div>
         </div>
@@ -52,10 +52,10 @@ export function Home() {
       <section className="bg-[#F5F5DC]">
         <div className="flex flex-row">
           <div className="flex flex-col justify-center items-end p-16 pr-32 text-right">
-            <h2 className="text-[40px] font-[400] text-[#B36320]">
+            <h2 className="text-[40px] font-normal text-[#B36320]">
               “Ovo não briga com pedra, mas lambuza!”
             </h2>
-            <p className="mt-8 text-[20px] text-[#B36320] text-justify font-[400]">
+            <p className="mt-8 text-xl text-[#B36320] text-justify font-normal">
               A expressão falada pelos intelectuais quilombolas de  diferentes quilombos do território étnico de Alcântara – MA
               evidencia a força da resistência e a  luta pela manutenção do território étnico frente ao conflito de mais de 40
               anos instaurado a partir  da implantação do Centro de Lançamento de Alcântara – CLA, na década de 1980. Ancorados
@@ -70,7 +70,7 @@ export function Home() {
               ocidental.
             </p>
 
-            <p className="mt-8 text-[20px] text-[#B36320] text-justify font-[400]">
+            <p className="mt-8 text-xl text-[#B36320] text-justify font-normal">
               A Epistemologia Ocidental não reconhece como válidos outras formas de saberes socialmente  construídos. Os saberes
               são colocados numa escala de hierarquização que os inferioriza, sem  que se analisem as condições e as mobilizações
               que constituíram suas produções. Conceitos  cunhados pela Epistemologia Ocidental, a exemplo de quilombo,
@@ -86,22 +86,17 @@ export function Home() {
       <section className="bg-[#415D38] relative overflow-hidden">
         <div className="flex flex-row">
           <div className="flex flex-col justify-center p-16 pr-32 text-left">
-            <h2 className="text-[40px] font-[400] text-[#CCAC85]">Nosso Propósito</h2>
-            <p className="mt-2 italic text-justify text-[20px] text-[#CCAC85] font-[400]">
+            <h2 className="text-[40px] font-normal text-[#CCAC85]">Nosso Propósito</h2>
+            <p className="mt-2 italic text-justify text-xl text-[#CCAC85] font-normal">
               A construção dessa plataforma interativa, permite o acesso às análises de dados referentes a saberes e
-              fazeres epistemológicos dos intelectuais quilombolas de Alcântara – MA, elaborados durante a feitura da
+              fazeres de resistência dos intelectuais quilombolas de Alcântara – MA, elaborados durante a feitura da
               tese de doutorado intitulada <span className="font-semibold"> “A gente não é só a casa”: PRODUÇÃO INTELECTUAL E CONFLITOS: INTELECTUAIS
                 QUILOMBOLAS DE ALCÂNTARA – MA E A “EPISTEMOLOGIA DA RESISTÊNCIA” </span>, produzida no âmbito do Programa de
               Pós-graduação em História – PPGHIST, da Universidade Estadual do Maranhão – UEMA, tendo como Área de
               concentração: História, Ensino e Narrativas e Linha de Pesquisa: Memória e Saberes Escolares.
-              Objetiva-se que os usuários da plataforma possam consultar informações sobre o território étnico,
-              os saberes e fazeres epistemológicos vivenciados pelos intelectuais quilombolas no cotidiano de seus
-              quilombos, por meio do acesso ao mapa interativo, fotografias, entrevistas, publicações de livros e
-              outros materiais sugeridos nos links e QrCodes, que tratam da história social e da “Epistemologia da
-              Resistência” elaborada pelos intelectuais quilombolas do Território Étnico de Alcântara – MA.
             </p>
 
-            <p className="mt-4 italic text-justify text-[20px] text-[#CCAC85] font-[400]">
+            <p className="mt-4 italic text-justify text-xl text-[#CCAC85] font-normal">
               Objetiva-se que os usuários da plataforma possam consultar informações sobre o território  étnico, os saberes e
               fazeres de resistência vivenciados pelos intelectuais quilombolas no  cotidiano de seus quilombos e das práticas
               mobilizatórias em suas diferentes fronteiras nos  diversos espaços sociais ocupados, por meio do acesso ao mapa
@@ -120,8 +115,8 @@ export function Home() {
       </section>
 
       <section className="bg-[#222F1B] p-16">
-        <h2 className="text-[#CCAC85] text-[40px] font-[400]">Conheça nosso mapa interativo</h2>
-        <p className="text-[#CCAC85] text-[20px] font-[400] mt-2">
+        <h2 className="text-[#CCAC85] text-[40px] font-normal">Conheça nosso mapa interativo</h2>
+        <p className="text-[#CCAC85] text-xl font-normal mt-2">
           Navegue pelo mapa e descubra um pouco sobre as comunidades quilombolas de Alcântara
         </p>
         <div className="flex flex-row mt-8 gap-[30px]">

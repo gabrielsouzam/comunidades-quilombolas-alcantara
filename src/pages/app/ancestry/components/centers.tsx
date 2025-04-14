@@ -5,7 +5,7 @@ import centroDeProducao from "../../../../assets/centro-de-producao.png"
 import potes from "../../../../assets/potes.jpeg"
 import coletaColetiva from "../../../../assets/coleta-coletiva.jpeg"
 import centroDeArtesanato from "../../../../assets/centro-de-artesanato.png"
-import multirao from "../../../../assets/multirao.png"
+import mutirao from "../../../../assets/mutirao.jpeg"
 import machado from "../../../../assets/machado.jpg"
 import centroCiencias from "../../../../assets/centro-ciencias.jpeg"
 import ceramica from "../../../../assets/ceramica.jpeg"
@@ -93,7 +93,7 @@ export function Centers() {
               As louças de cerâmica não são destinadas apenas ao uso como  utensílios domésticos, sendo também utilizadas como
               itens decorativos  nos diversos espaços sociais do cotidiano dos quilombolas. São  comercializadas para quilombos
               vizinhos, distribuídas para a sede de  Alcântara, para outros municípios e países, a exemplo de Inglaterra,
-              Espanha, França, Portugal, Estados Unidos e África do Sul. A cerâmica  das mulheres quilombolas de Itamatatiua
+              Espanha, França, Portugal, Estados Unidos e África do Sul. As cerâmicas das mulheres quilombolas de Itamatatiua
               são dotadas de saberes  tradicionais, ancorados na ancestralidade, no reforço da identidade  coletiva e nas
               práticas de resistência no território.
             </p>
@@ -215,9 +215,9 @@ export function Centers() {
           <div className="flex flex-col gap-9">
             <div className="max-w-[25.62rem]">
               <img
-                src={multirao}
+                src={mutirao}
                 alt=""
-                className="shadow-lg  min-w-[23.75rem] h-[16.12rem]"
+                className="border-8 border-white shadow-lg  min-w-[23.75rem] h-[16.12rem]"
               />
 
               <p className="font-normal italic text-xl text-right"> Mutirão para quebra de coco  babaçu - Quilombo Canelatiua</p>
