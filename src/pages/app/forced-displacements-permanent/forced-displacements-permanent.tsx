@@ -20,7 +20,7 @@ export function ForcedDisplacementsPermanent() {
           className=" text-white"
         >
           <h1 className="text-[28px] font-normal">
-            Deslocamento compulsórios permanentes
+            Deslocamentos compulsórios permanentes
           </h1>
         </div>
 
@@ -66,19 +66,28 @@ export function ForcedDisplacementsPermanent() {
               </p>
               <img
                 src={Entidades}
-                alt="Agrovila Cajueiro"
+                alt="Litoral"
                 className="h-[150px] w-full object-cover rounded-lg opacity-90 border-4"
+                
                 style={{ borderColor: "#AB9679" }}
+                
               />
+              <p className="text-left text-xs mt-4" style={{ color: "white" }}>
+                Foto: Elitiel Guedes
+              </p>
             </div>
 
             <div className="w-[290px] mt-20">
               <img
                 src={Entidades2Image}
-                alt="Agrovila Marudá"
+                alt="Parte Território"
                 className="h-[150px] w-full object-cover rounded-lg opacity-90 border-4"
                 style={{ borderColor: "#AB9679" }}
+                
               />
+              <p className="text-left text-xs mt-4" style={{ color: "white" }}>
+                Foto: Davi Pereira Júnior
+              </p>
             </div>
           </div>
 

@@ -1,5 +1,5 @@
 import PastaIcon from "./../../../assets/pasta.png"
-import DisplacementsImage from "./../../../assets/barcos.png";
+import DisplacementsImage from "./../../../assets/barcoTeste.png";
 import MapaImage from "./../../../assets/mapa2.png";
 
 export function ForcedDisplacementsAgrovilas() {
@@ -15,16 +15,16 @@ export function ForcedDisplacementsAgrovilas() {
           className="max-w-[800px]"
 
         >
-          <h1 className="text-[26px] text-black">
+          <h1 className="text-[26px] text-white">
             Deslocamento compulsório das comunidades quilombolas para as agrovilas
           </h1>
-          <p className="mt-3 text-lg italic text-black">
+          <p className="mt-3 text-lg italic text-white">
             história não escrita da resistência cotidiana em suas diferentes fronteiras
           </p>
         </div>
 
         <div
-          className="max-w-[100%] text-justify text-xl text-black z-20 mt-4">
+          className="max-w-[100%] text-justify text-xl text-white z-20 mt-4">
           <p className="mb-4">
             Nos anos de 1986 e 1987, ocorreram os deslocamentos de 312 famílias de 23
             quilombos para sete agrovilas que reproduziram os nomes dos quilombos de onde foram
@@ -75,7 +75,7 @@ export function ForcedDisplacementsAgrovilas() {
 
       <div className="relative bg-[#501E0D] py-120 mt-22">
         <div className="absolute top-[-230px] left-0 w-full h-[280px] bg-gradient-to-b from-transparent via-[#000000] to-[#531e0c]"></div>
-        <div className="mt-14 text-white text-lg relative z-10 flex items-center justify-end pr-34">
+        <div className="mt-24 text-white text-lg relative z-10 flex items-center justify-end pr-34">
         <span>Para saber mais, acesse clicando</span>
           <a
             href= {MapaImage}
