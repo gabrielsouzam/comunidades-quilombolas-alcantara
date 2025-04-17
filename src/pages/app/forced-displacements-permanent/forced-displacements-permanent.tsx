@@ -240,7 +240,7 @@ export function ForcedDisplacementsPermanent() {
                 className="h-[200px] w-[350px]  object-cover rounded-lg opacity-90 border-4"
                 style={{ borderColor: "#AB9679" }}
               />
-              <p className="text-left text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Agrovila Sô Assim</p>
+              <p className="text-left text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Agrovila Só Assim</p>
               <p className="text-left text-xs" style={{ color: "#CEB490CC" }}>Foto: Elitiel Guedes</p>
             </div>
 

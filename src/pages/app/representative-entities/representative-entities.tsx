@@ -156,7 +156,7 @@ export function RepresentativeEntities() {
 
 
               <CustomLink
-                title="Carta do II Seminario Alcantara a Base Espacial e os Impasses Sociais"
+                title="Carta do II Seminário Alcântara: a Base Espacial e os Impasses Sociais"
                 link="/Carta-do-II-Seminrio-Alcantara-a-Base-Espacial-e-os-Impasses-Sociais.pdf"
               />
               <CustomLink
