@@ -11,7 +11,7 @@ export function RepresentativeEntities() {
         style={{ backgroundImage: `url(${BarcosImage})` }}
       >
         <div
-          className="absolute inset-0 top-[-4rem] z-10 h-[202rem] w-full pointer-events-none"
+          className="absolute inset-0  z-10 h-[202rem] w-full pointer-events-none"
           style={{
             background: `linear-gradient(
       180deg,

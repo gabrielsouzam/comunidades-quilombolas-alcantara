@@ -66,7 +66,7 @@ export function LearnMore() {
     <div className="h-full bg-base-orage pl-32 py-30 text-base-white flex gap-24">
       <div className="flex-1">
         <h2 className="text-4xl mb-4">Gostaria de saber mais sobre nossa pesquisa?</h2>
-        <h3 className="text-2xl mb-6 font-light">Entre em contatro conosco</h3>
+        <h3 className="text-2xl mb-6 font-light">Entre em contato conosco</h3>
         <form
           className="flex flex-col items-center space-y-11"
           onSubmit={handleSubmit(handleSendMessage)}
