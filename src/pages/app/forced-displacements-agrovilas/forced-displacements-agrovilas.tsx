@@ -73,7 +73,7 @@ export function ForcedDisplacementsAgrovilas() {
         </div>
       </div>
 
-      <div className="relative bg-[#501E0D] py-120 mt-22">
+      <div className="relative bg-[#501E0D] pt-120 pb-20 mt-22">
         <div className="absolute top-[-230px] left-0 w-full h-[280px] bg-gradient-to-b from-transparent via-[#000000] to-[#531e0c]"></div>
         <div className="mt-24 text-white text-lg relative z-10 flex items-center justify-end pr-34">
         <span>Para saber mais, acesse clicando</span>
