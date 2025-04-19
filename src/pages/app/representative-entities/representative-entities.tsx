@@ -7,7 +7,7 @@ export function RepresentativeEntities() {
   return (
     <div className="flex flex-col w-full h-full text-base-white ">
       <div
-        className="bg-cover bg-center bg-no-repeat h-[60.75rem] px-28"
+        className="bg-cover bg-center bg-no-repeat h-[67.75rem] px-28"
         style={{ backgroundImage: `url(${BarcosImage})` }}
       >
         <div
