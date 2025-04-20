@@ -1,4 +1,4 @@
-import PastaIcon from "./../../../assets/pasta.png"
+import PastaIcon from "./../../../assets/pasta.png";
 import DisplacementsImage from "./../../../assets/barcoTeste.png";
 import MapaImage from "./../../../assets/mapa2.png";
 
@@ -6,25 +6,21 @@ export function ForcedDisplacementsAgrovilas() {
   return (
     <div className="font-['Open_Sans']">
       <div
-        className="relative h-[56.25rem] bg-cover bg-center bg-no-repeat px-28 py-24"
+        className="relative bg-cover bg-center bg-no-repeat px-6 md:px-16 lg:px-28 py-24"
         style={{
           backgroundImage: `url(${DisplacementsImage})`,
         }}
       >
-        <div
-          className="max-w-[800px]"
-
-        >
-          <h1 className="text-[26px] text-white">
+        <div className="max-w-3xl text-white">
+          <h1 className="text-2xl md:text-3xl font-semibold">
             Deslocamento compulsório das comunidades quilombolas para as agrovilas
           </h1>
-          <p className="mt-3 text-lg italic text-white">
+          <p className="mt-3 text-lg italic">
             história não escrita da resistência cotidiana em suas diferentes fronteiras
           </p>
         </div>
 
-        <div
-          className="max-w-[100%] text-justify text-xl text-white z-20 mt-4">
+        <div className="mt-6 text-white text-justify text-base md:text-lg leading-relaxed z-20 max-w-full">
           <p className="mb-4">
             Nos anos de 1986 e 1987, ocorreram os deslocamentos de 312 famílias de 23
             quilombos para sete agrovilas que reproduziram os nomes dos quilombos de onde foram
@@ -46,46 +42,45 @@ export function ForcedDisplacementsAgrovilas() {
           </p>
         </div>
 
-        <div
-          className="relative max-w-[100%] w-full  text-white z-20 mt-16"
-        >
-          <div className="max-w-[46%] text-justify">
-            <blockquote className="italic text-3xl font-light text-justify text-[#F5F5DC] leading-relaxed ">
+        <div className="relative w-full text-white z-20 mt-16">
+          <div className="w-full md:max-w-2xl text-justify">
+            <blockquote className="italic text-2xl md:text-3xl font-light text-[#F5F5DC] leading-relaxed">
               “Nessa época, foi um grande sofrimento. Cada qual nos seus devidos lugares, onde nasceram e se criaram. A gente sofreu demais,
               chorei demais! Deixa eu chorar! Você já viu uma criança mamar e a mãe não querer mais dar o peito? Foi o que eles fizeram com a gente!”
             </blockquote>
-            <cite className="block mt-4 text-lg font-normal text-justify text-[#F5F5DC]">
+            <cite className="block mt-4 text-base md:text-lg font-normal text-[#F5F5DC]">
               — Leandra de Jesus Silveira, 83 anos, quilombola realocada de Pepital Velho para a agrovila Pepital.
             </cite>
-          </div>
-          <div className="max-w-[80%] pt-16 flex flex-col  z-20 ml-auto">
-            <blockquote className="italic text-3xl font-light text-justify text-[#F5F5DC]  leading-relaxed pr-8 ">
-              “A temporada mais ruim foi quando nós viemos pra cá e  perdemos tudo o que ficou lá, muito
-              sofrimento! Nós  tentamos voltar, mas não conseguimos. A gleba da terra  não é boa para plantar.
-              A gente trabalhava lá, mas não  prestava não.
-              Tenho duas filhas que moram aqui e elas  não tem lote, trabalham na gleba de outras pessoas”.”
-            </blockquote>
-            <cite className="block mt-4 text-lg font-normal text-right text-[#F5F5DC] px-6 z-20">
-              — Maria de Fátima Ferreira, 67 anos, quilombola realocada para a agrovila Mamuna.
-            </cite>
-
           </div>
         </div>
       </div>
 
-      <div className="relative bg-[#501E0D] pt-120 pb-20 mt-22">
-        <div className="absolute top-[-230px] left-0 w-full h-[280px] bg-gradient-to-b from-transparent via-[#000000] to-[#531e0c]"></div>
-        <div className="mt-24 text-white text-lg relative z-10 flex items-center justify-end pr-34">
-        <span>Para saber mais, acesse clicando</span>
-          <a
-            href= {MapaImage}
-            className="font-semibold no-underline ml-1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            aqui
-          </a>
-          <img src={PastaIcon} alt="Ícone de Pasta" className="w-5 h-5 ml-2" />
+      <div className="relative bg-[#501E0D] pt-40 pb-20 mt-20">
+        <div className="absolute top-[-230px] left-0 w-full h-[280px] bg-gradient-to-b from-transparent via-[#000000] to-[#531e0c] pointer-events-none"></div>
+
+        <div className="container max-w-[80%] ml-auto pr-6">
+          <blockquote className="italic text-2xl md:text-3xl font-light text-[#F5F5DC] leading-relaxed text-justify">
+            “A temporada mais ruim foi quando nós viemos pra cá e  perdemos tudo o que ficou lá, muito
+            sofrimento! Nós  tentamos voltar, mas não conseguimos. A gleba da terra  não é boa para plantar.
+            A gente trabalhava lá, mas não  prestava não.
+            Tenho duas filhas que moram aqui e elas  não tem lote, trabalham na gleba de outras pessoas.”
+          </blockquote>
+          <cite className="block mt-4 text-base md:text-lg font-normal text-right text-[#F5F5DC]">
+            — Maria de Fátima Ferreira, 67 anos, quilombola realocada para a agrovila Mamuna.
+          </cite>
+
+          <div className="mt-16 text-white text-base md:text-lg flex flex-wrap items-center justify-end gap-2">
+            <span>Para saber mais, acesse clicando</span>
+            <a
+              href={MapaImage}
+              className="font-semibold underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              aqui
+            </a>
+            <img src={PastaIcon} alt="Ícone de Pasta" className="w-5 h-5" />
+          </div>
         </div>
       </div>
     </div>
