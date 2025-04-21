@@ -7,7 +7,7 @@ export function RepresentativeEntities() {
   return (
     <div className="flex flex-col w-full h-full text-base-white ">
       <div
-        className="bg-cover bg-center bg-no-repeat h-[60.75rem] px-28"
+        className="bg-cover bg-center bg-no-repeat h-[67.75rem] px-28"
         style={{ backgroundImage: `url(${BarcosImage})` }}
       >
         <div
@@ -156,7 +156,7 @@ export function RepresentativeEntities() {
 
 
               <CustomLink
-                title="Carta do II Seminario Alcantara a Base Espacial e os Impasses Sociais"
+                title="Carta do II Seminário Alcântara: a Base Espacial e os Impasses Sociais"
                 link="/Carta-do-II-Seminrio-Alcantara-a-Base-Espacial-e-os-Impasses-Sociais.pdf"
               />
               <CustomLink

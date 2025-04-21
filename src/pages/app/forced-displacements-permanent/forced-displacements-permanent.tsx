@@ -45,56 +45,49 @@ export function ForcedDisplacementsPermanent() {
               acerca da utilização das casas, permitem
               compreender a violência simbólica e a eficácia dos mecanismos de coerção e controle sobre as famílias.
             </p>
+            <p className="mb-6 pr-100">
+              As agrovilas foram projetadas para reproduzir os  brasões da Aeronáutica e a disposição das casas
+              seguiram o formato  de cada brasão. O cotidiano das famílias nas casas era  “vigiado”, não se admitindo alterações,
+              de qualquer natureza, na  estrutura física das casas,
+              a exemplo de utilização de artefatos fixados  nas paredes, mudança de cor na pintura, construção de fogão de barro  e feitura de banheiros de palha.
+            </p>
+            <p className="mb-6 pr-100">
+              A data e o “tempo para fazer a mudança” para que os móveis e demais  objetos pertencentes aos realocados fossem retirados de suas casas,
+              foram definidos a partir de um planejamento do CLA, sem o  consentimento das famílias.
+              A estruturação das agrovilas e a  disposição das casas não considerou as relações familiares e de  vizinhança consolidadas nas comunidades.
+            </p>
           </div>
 
-          <div className="flex">
-            <div>
-              <p className="mb-6 pr-14">
-                As agrovilas foram projetadas para reproduzir os  brasões da Aeronáutica e a disposição das casas
-                seguiram o formato  de cada brasão. O cotidiano das famílias nas casas era  “vigiado”, não se admitindo alterações,
-                de qualquer natureza, na  estrutura física das casas,
-                a exemplo de utilização de artefatos fixados  nas paredes, mudança de cor na pintura, construção de fogão de barro  e feitura de banheiros de palha.
-              </p>
-              <p className="mb-6 pr-14">
-                A data e o “tempo para fazer a mudança” para que os móveis e demais  objetos pertencentes aos realocados fossem retirados de suas casas,
-                foram definidos a partir de um planejamento do CLA, sem o  consentimento das famílias.
-                A estruturação das agrovilas e a  disposição das casas não considerou as relações familiares e de  vizinhança consolidadas nas comunidades.
-              </p>
+          <div className="absolute top-90 right-10 h-full flex flex-col justify-start gap-8 py-24 pr-16">
 
-              <blockquote className="italic text-3xl font-light text-justify text-[#F5F5DC] leading-relaxed pr-14 mb-14">
-                “Você já viu uma criança mamar e a mãe não querer dar o peito? Foi o que eles fizeram com a gente!”
-              </blockquote>
+            <div className="w-[290px]">
+              <p className="text-lg font-semibold text-[#F5F5DC] text-center mb-12">
+                Confira outras imagens do território étnico
+              </p>
+              <img
+                src={Entidades}
+                alt="Litoral"
+                className="h-[150px] w-full object-cover rounded-lg opacity-90 border-4"
+                
+                style={{ borderColor: "#AB9679" }}
+                
+              />
+              <p className="text-left text-xs mt-4" style={{ color: "white" }}>
+                Foto: Elitiel Guedes
+              </p>
             </div>
-            <div>
-              <div className="w-[290px]">
-                <p className="text-lg font-semibold text-[#F5F5DC] text-center mb-4">
-                  Confira outras imagens do território étnico
-                </p>
-                <img
-                  src={Entidades}
-                  alt="Litoral"
-                  className="h-[150px] w-full object-cover rounded-lg opacity-90 border-4"
 
-                  style={{ borderColor: "#AB9679" }}
-
-                />
-                <p className="text-left text-xs mt-4" style={{ color: "white" }}>
-                  Foto: Elitiel Guedes
-                </p>
-              </div>
-
-              <div className="w-[290px] mt-4">
-                <img
-                  src={Entidades2Image}
-                  alt="Parte Território"
-                  className="h-[150px] w-full object-cover rounded-lg opacity-90 border-4"
-                  style={{ borderColor: "#AB9679" }}
-
-                />
-                <p className="text-left text-xs mt-4" style={{ color: "white" }}>
-                  Foto: Davi Pereira Júnior
-                </p>
-              </div>
+            <div className="w-[290px] mt-20">
+              <img
+                src={Entidades2Image}
+                alt="Parte Território"
+                className="h-[150px] w-full object-cover rounded-lg opacity-90 border-4"
+                style={{ borderColor: "#AB9679" }}
+                
+              />
+              <p className="text-left text-xs mt-4" style={{ color: "white" }}>
+                Foto: Davi Pereira Júnior
+              </p>
             </div>
           </div>
 
@@ -104,6 +97,10 @@ export function ForcedDisplacementsPermanent() {
               color: "#F5F5DC"
             }}
           >
+            <blockquote className="italic text-3xl font-light text-justify text-[#F5F5DC] leading-relaxed pr-120 mb-14">
+              “Você já viu uma criança mamar e a mãe não querer dar o peito? Foi o que eles fizeram com a gente!”
+            </blockquote>
+
             <blockquote className="italic text-3xl font-light text-justify text-[#F5F5DC] leading-relaxed mt-6 mb-8 pr-10">
               “A temporada ruim foi quando viemos pra cá e perdemos tudo, nossa terra.
               Muito sofrimento, a falta de tudo o que ficou lá, muito sofrimento! Só
@@ -194,7 +191,7 @@ export function ForcedDisplacementsPermanent() {
       </div>
 
       <div
-        className="relative bg-[#692610] pt-120"
+        className="relative bg-[#692610] py-120 "
       >
         <div
           className="absolute left-0 w-full h-[300px] bg-gradient-to-b from-transparent via-[#a55c20e5] to-[#6b270a]"
@@ -235,15 +232,15 @@ export function ForcedDisplacementsPermanent() {
               <p className="text-left text-xs" style={{ color: "#CEB490CC" }}>Foto: Elitiel Guedes</p>
             </div>
 
-            {/* Agrovila Sô Assim */}
+            {/* Agrovila Só Assim */}
             <div className="w-3/4">
               <img
                 src={SoAssim}
-                alt="Agrovila Sô Assim"
+                alt="Agrovila Só Assim"
                 className="h-[200px] w-[350px]  object-cover rounded-lg opacity-90 border-4"
                 style={{ borderColor: "#AB9679" }}
               />
-              <p className="text-left text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Agrovila Sô Assim</p>
+              <p className="text-left text-sm mt-1 italic" style={{ color: "#CEB490CC" }}>Agrovila Só Assim</p>
               <p className="text-left text-xs" style={{ color: "#CEB490CC" }}>Foto: Elitiel Guedes</p>
             </div>
 
