@@ -16,7 +16,7 @@ export function ForcedDisplacementsPermanent() {
         style={{ backgroundImage: `url(${VilarejoImage})` }}
       >
         <div
-          className="absolute inset-0 top-10 z-10 w-full h-full"
+          className="absolute inset-0 top-10 z-10 w-full"
           style={{
             background: `linear-gradient(180deg,
               rgba(207, 169, 125, 0) 4.48%,
@@ -134,7 +134,7 @@ export function ForcedDisplacementsPermanent() {
               época, foi um grande sofrimento!”
             </blockquote>
 
-            <p className="mt-4 text-lg font-medium text-justify text-[#F5F5DC] ">
+            <p className="mt-4 text-2xl font-medium text-justify text-[#F5F5DC] mb-16">
               — Leandra de Jesus Silveira, 83 anos, quilombola realocada de
               Pepital Velho para a agrovila Pepital.
             </p>
