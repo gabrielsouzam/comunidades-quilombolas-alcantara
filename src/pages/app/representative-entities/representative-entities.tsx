@@ -7,11 +7,11 @@ export function RepresentativeEntities() {
   return (
     <div className="flex flex-col w-full h-full text-base-white ">
       <div
-        className="bg-cover bg-center bg-no-repeat h-[67.75rem] px-28"
+        className="bg-cover bg-center bg-no-repeat h-[67.75rem] px-28 "
         style={{ backgroundImage: `url(${BarcosImage})` }}
       >
         <div
-          className="absolute inset-0  z-10 h-[202rem] w-full pointer-events-none"
+          className="absolute inset-0  z-10 h-[180rem] w-full pointer-events-none"
           style={{
             background: `linear-gradient(
       180deg,
@@ -32,7 +32,7 @@ export function RepresentativeEntities() {
         ></div>
 
 
-        <div className="relative z-20">
+        <div className="relative z-20 pb-10">
           <h1 className="text-terracota-red font-normal text-4xl mb-16 mt-20">
             Entidades representativas dos quilombolas do território  étnico de Alcântara
           </h1>
@@ -98,7 +98,7 @@ export function RepresentativeEntities() {
             </p>
           </div>
           <div
-            className="flex flex-col px-10 py-10 mt-10 h-[620px]"
+            className="flex flex-col px-10 py-10 mt-10"
             style={{
               backgroundColor: "#222F1B",
               color: "#F5F5DC",
