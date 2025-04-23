@@ -12,11 +12,11 @@ export function ForcedDisplacementsPermanent() {
   return (
     <div className="font-['Open_Sans']">
       <div
-        className="relative bg-cover bg-center px-30 pt-24 z-20"
+        className="relative bg-cover bg-center px-30 pt-24 z-20 pb-6"
         style={{ backgroundImage: `url(${VilarejoImage})` }}
       >
         <div
-          className="absolute inset-0 top-[20rem] z-10 w-full h-[160rem]"
+          className="absolute inset-0 top-10 z-10 w-full h-full"
           style={{
             background: `linear-gradient(180deg,
               rgba(207, 169, 125, 0) 4.48%,
@@ -139,7 +139,7 @@ export function ForcedDisplacementsPermanent() {
               Pepital Velho para a agrovila Pepital.
             </p>
 
-            <div className="flex items-start ">
+            <div className="flex items-start gap-10">
               <div className=" text-white text-justify z-20 w-2/3">
                 <p className="mb-4">
                   <p className="mb-4 mt-6">
